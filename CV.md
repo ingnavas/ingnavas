@@ -5,11 +5,12 @@
 ## 2025  
 ### 🖼️ Sistema de Monitoramento de Variábles Remotas
 
-**Linguagem:** 
-- Python, usando <a href="https://taipy.io/" target="_blank" rel="noopener noreferrer">Taipy</a> para server local 
-**Hardware:** 
-- <a href="https://teltonika-networks.com/products/gateways/trb145" target="_blank">TRB145 Gateway</a>
-- <a href="https://www.hamiltoncompany.com/product-specs/242428-4313" target="_blank">Polilyte Plus PHI Arc 120</a>
+**Linguagem:**  
+- Python, usando [![Taipy](https://img.shields.io/badge/Taipy-docs-blue?logo=python&logoColor=white)](https://taipy.io/) para server local  
+
+**Hardware:**  
+- [![TRB145](https://img.shields.io/badge/Teltonika-TRB145-green?logo=raspberrypi&logoColor=white)](https://teltonika-networks.com/products/gateways/trb145)  
+- [![Polilyte](https://img.shields.io/badge/Hamilton-Polilyte%20Plus%20PHI%20Arc%20120-orange?logo=labview&logoColor=white)](https://www.hamiltoncompany.com/product-specs/242428-4313)
 
 **Exemplo de snippet do código**
 ```python
