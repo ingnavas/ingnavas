@@ -3,10 +3,15 @@
 ## Projects
 
 ## 2025  
-### 🖼️ Sistema de Monitoramento de Variábles Remotas
+### Sistema de Monitoramento de Variábles Remotas
+![My Badge](https://img.shields.io/badge/play-station-blue.svg?logo=https://drive.google.com/file/d/1BpDYenlUGHWDD_Wcqu-7zP2vNmv-jDSp/view?usp=sharing)
+
+https://drive.google.com/uc?export=view&id=1L07g0xDrygkLB1vOwiCdOPpOJMcvkvYx
+
+En esta applicación de realiza una comunicación con un gateway GSM/Modbus para colectar datos de un sensor remoto e se realiza una visualización en un server local
 
 **Linguagem:**  
-- Python, usando [![Taipy](https://img.shields.io/badge/Taipy-docs-blue?logo=python&logoColor=white)](https://taipy.io/) para server local  
+- Python, usando [![Taipy](https://img.shields.io/badge/Taipy-gui-blue?logo=python&logoColor=white)](https://taipy.io/) para server local  
 
 **Hardware:**  
 - [![TRB145](https://img.shields.io/badge/Teltonika-TRB145-green?logo=raspberrypi&logoColor=white)](https://teltonika-networks.com/products/gateways/trb145)  
@@ -76,7 +81,7 @@ def on_init(state):
 <details>
   <summary><b>📜 Aplicación </b>></summary>
 
-![Monitoreo remoto](https://drive.google.com/file/d/1L07g0xDrygkLB1vOwiCdOPpOJMcvkvYx/view)
+![Monitoreo remoto](https://drive.google.com/uc?export=view&id=1L07g0xDrygkLB1vOwiCdOPpOJMcvkvYx)
 
 </details>
 
