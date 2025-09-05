@@ -55,7 +55,7 @@ By combining my Data Acquisition Expertise with my Academic Background in contro
 
 ### Hola 👋
 
-## Soy Jaime Eduardo Navarrete 👋 [![english](https://img.shields.io/badge/lang-en-blue.svg)](#Hello) 
+## Soy Jaime Eduardo Navarrete 👋 [![english](https://img.shields.io/badge/lang-en-blue.svg)](#hello) 
 
 ### Sobre mí 🔧
 
