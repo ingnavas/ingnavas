@@ -745,7 +745,7 @@ void loop() {
 Esta aplicación  grava microcontroladores STMicroelectronics y através de un hardware personalizado realiza un ensayo que identifica defectos en la producción de placas electrónicas. 
 
 **Caracteristicas:**  
-- Lenguaje labview.
+- Lenguaje[![Lenguaje labview](https://img.shields.io/badge/NI-Labview-blue?logo=labview&logoColor=white)](https://www.ni.com/es/shop/labview.html)
 
 **Hardware:**  
 
