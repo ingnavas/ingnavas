@@ -196,7 +196,7 @@ En esta applicación comanda el equipo para análisis DSL, modelo MTDE de la emp
 - Frontend en [![Taipy](https://img.shields.io/badge/Taipy-gui-blue?logo=python&logoColor=white)](https://taipy.io/) usando server local
 - Comunicación modbus RTU, y protocolo propio de Jasco en RS232
 - Algoritmo de control de temperatura en cascada
-- Procesamiento paralelo en  [![threads](https://img.shields.io/badge/Threads-parelelismo-gui-gray?)](https://www.linkedin.com/pulse/taipy-integration-data-acquisition-systems-navarrete-rodriguez-d7igc/?trackingId=WMqY4PWJRASx%2FvyMkzbxWg%3D%3D) 
+- Procesamiento paralelo en  [![Threads](https://img.shields.io/badge/Threads-paralelismo-green)](https://www.linkedin.com/pulse/taipy-integration-data-acquisition-systems-navarrete-rodriguez-d7igc/?trackingId=WMqY4PWJRASx%2FvyMkzbxWg%3D%3D)
 
 
 
@@ -314,7 +314,7 @@ pid = PIDController(kc, ti, td, tempo_amostra_cascata,reset_aw, output_limits=(s
 <details>
   <summary><b>📜 Aplicación </b>></summary>
 
-![Cristalización](https://drive.google.com/uc?export=view&id=1jBoOb9EYk22-cXdPvHVymaITFLeRyFqR)
+![DSL/MTED](https://drive.google.com/uc?export=view&id=1jBoOb9EYk22-cXdPvHVymaITFLeRyFqR)
 
 
 </details>
