@@ -1,4 +1,4 @@
-## I’m Jaime Eduardo Navarrete 👋 ( [![español](https://img.shields.io/badge/lang-es-yellow.svg)](./LEAME.md) )
+## I’m Jaime Eduardo Navarrete 👋  [![español](https://img.shields.io/badge/lang-es-yellow.svg)](./LEAME.md) 
 ### About Me 🔧
 
 I design solutions for data acquisition from physical systems through hardware and software integration.
