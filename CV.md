@@ -9,8 +9,10 @@
 
 En esta applicación de realiza una comunicación con un gateway GSM/Modbus para colectar datos de un sensor remoto y se realiza una visualización en un server local
 
-**Linguagem:**  
-- Python, usando [![Taipy](https://img.shields.io/badge/Taipy-gui-blue?logo=python&logoColor=white)](https://taipy.io/) para server local  
+**Caracteristicas:**  
+- Lenguaje python
+- Frontend en [![Taipy](https://img.shields.io/badge/Taipy-gui-blue?logo=python&logoColor=white)](https://taipy.io/) usando server local
+- Comunicación modbus RTU e MQQT
 
 **Hardware:**  
 
@@ -94,8 +96,11 @@ def on_init(state):
 
 En esta applicación de realiza una clasificación del tamaño de particulas en un proceso de cristalización
 
-**Linguagem:**  
-- Python, usando [![Taipy](https://img.shields.io/badge/Taipy-gui-blue?logo=python&logoColor=white)](https://taipy.io/) para server local  
+**Caracteristicas:**  
+- Lenguaje python
+- Frontend en [![Taipy](https://img.shields.io/badge/Taipy-gui-blue?logo=python&logoColor=white)](https://taipy.io/) usando server local
+- OpenCV
+- Banco de datos SQLite
 
 **Hardware:**  
 
@@ -186,10 +191,19 @@ def manual_calibration(state):
 
 En esta applicación comanda el equipo para análisis DSL, modelo MTDE de la empresa Biofoco Equipamentos para Laboratórios de Brasil
 
-**Linguagem:**  
-- Python, usando [![Taipy](https://img.shields.io/badge/Taipy-gui-blue?logo=python&logoColor=white)](https://taipy.io/) para server local  
+**Caracteristicas:**  
+- Lenguaje python
+- Frontend en [![Taipy](https://img.shields.io/badge/Taipy-gui-blue?logo=python&logoColor=white)](https://taipy.io/) usando server local
+- Comunicación modbus RTU, y protocolo propio de Jasco en RS232
+- Algoritmo de control de temperatura en cascada
+- Procesamiento paralelo en  [![threads](https://img.shields.io/badge/Threads-parelelismo-gui-gray?)](https://www.linkedin.com/pulse/taipy-integration-data-acquisition-systems-navarrete-rodriguez-d7igc/?trackingId=WMqY4PWJRASx%2FvyMkzbxWg%3D%3D) 
+
+
+
 
 **Hardware:**  
+
+- [![Bombas HPLC](https://img.shields.io/badge/Jasco-Bombas-yellow?)](https://jascoinc.com/products/chromatography/hplc/modules/hplc-pumps/)
 
 - [![Fieldlogger](https://img.shields.io/badge/Novus-Fieldlogger-green?)](https://www.novus.com.br/pt/produto/data-loggers/fieldlogger)
 
@@ -206,6 +220,92 @@ En esta applicación comanda el equipo para análisis DSL, modelo MTDE de la emp
  
 ```python
 
+class PIDController:
+    def __init__(self, Kp, Ki, Kd, T,Kaw, output_limits=(-float('inf'), float('inf'))):
+        """
+        PID Controller with anti-windup and bumpless transfer.
+
+        Parameters:
+        - Kp (float): Proportional gain
+        - Ki (float): Integral gain
+        - Kd (float): Derivative gain
+        - T (float): Sampling time (seconds)
+        - output_limits (tuple): Min and max output limits (anti-windup)
+        """
+        self.Kp = Kp
+        self.Ki = Ki
+        self.Kd = Kd
+        self.T = T
+        self.output_limits = output_limits
+        
+        # Internal states
+        self.integral = 0.0
+        self.prev_error = 0.0
+        self.prev_output = 0.0
+        self.prev_derivative = 0.0
+        self.setpoint = 0.0  # Desired value
+        
+        # Anti-windup
+        self.I_term = 0.0  # Integral term for bumpless transfer
+        self.Kaw = Kaw  # Anti-windup coefficient
+
+    def update(self, measurement):
+        """
+        Computes the PID control action.
+        
+        Parameters:
+        - measurement (float): Process variable (PV)
+
+        Returns:
+        - control_output (float): PID output
+        """
+        error = self.setpoint - measurement
+        # Proportional term
+        P_term = self.Kp * error
+
+        # Integral term with anti-windup
+        self.I_term += self.Ki * error * self.T
+        self.I_term -= self.Kaw * (self.prev_output - self.clamp(self.prev_output))  # Anti-windup correction
+        
+        # Derivative term (using backward difference)
+        derivative = (error - self.prev_error) / self.T
+        D_term = self.Kd * derivative
+        
+        # Compute total output
+        output = P_term + self.I_term + D_term
+
+        self.prev_output = output
+        # Apply output limits (clamping)
+        output = self.clamp(output)
+
+        # Store values for next iteration
+        self.prev_error = error
+        self.prev_derivative = derivative
+
+        return output
+
+    def clamp(self, value):
+        """
+        Limits the output to avoid integral windup.
+        """
+
+        min_output, max_output = self.output_limits
+        return max(min(value, max_output), min_output)
+
+    def set_setpoint(self, new_setpoint):
+        """
+        Updates the setpoint with bumpless transfer.
+        
+        Parameters:
+        - new_setpoint (float): Desired setpoint
+        """
+        delta_setpoint = new_setpoint - self.setpoint
+        self.setpoint = new_setpoint
+        self.I_term += delta_setpoint * self.Ki * self.T  # Bumpless transfer for integral action
+
+pid = PIDController(kc, ti, td, tempo_amostra_cascata,reset_aw, output_limits=(sat_min, sat_max))
+
+
 ```
 
 </details> 
@@ -214,7 +314,8 @@ En esta applicación comanda el equipo para análisis DSL, modelo MTDE de la emp
 <details>
   <summary><b>📜 Aplicación </b>></summary>
 
-![Cristalización](https://drive.google.com/uc?export=view&id=1FBPtxAnipIjrpIgO9ms8j3TBNU5uLvnN)
+![Cristalización](https://drive.google.com/uc?export=view&id=1jBoOb9EYk22-cXdPvHVymaITFLeRyFqR)
+
 
 </details>
 
