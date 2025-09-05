@@ -1,6 +1,6 @@
 ### Hola 👋
 
-## Soy Jaime Eduardo Navarrete 👋
+## Soy Jaime Eduardo Navarrete 👋 [![english](https://img.shields.io/badge/lang-en-blue.svg)](./README.md)
 
 ### Sobre mí 🔧
 
