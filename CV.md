@@ -1,6 +1,6 @@
  Jaime Eduardo Navarrete – Curriculum Vitae
 
-## Projects
+## Proyectos
 
 <!-- PRIMER PROYECTO -->
 
@@ -87,8 +87,8 @@ def on_init(state):
 
 </details>
 
+---
 <!-- SEGUNDO PROYECTO -->
-
 
 ### Clasificador de tamaño de partículas en cristalización
 
@@ -176,6 +176,41 @@ def manual_calibration(state):
 
 ![Cristalización](https://drive.google.com/uc?export=view&id=1FBPtxAnipIjrpIgO9ms8j3TBNU5uLvnN)
 
+</details>
 
+---
+
+<!-- TERCER PROYECTO -->
+
+### Software para ensayo DSL (Dynamic Scale Loop)
+
+En esta applicación comanda el equipo para análisis DSL, modelo MTDE de la empresa Biofoco Equipamentos para Laboratórios de Brasil
+
+**Linguagem:**  
+- Python, usando [![Taipy](https://img.shields.io/badge/Taipy-gui-blue?logo=python&logoColor=white)](https://taipy.io/) para server local  
+
+**Hardware:**  
+
+- [![Fieldlogger](https://img.shields.io/badge/Novus-Fieldlogger-green?)](https://www.novus.com.br/pt/produto/data-loggers/fieldlogger)
+
+- [![Controlador](https://img.shields.io/badge/Novus-Controlador%20N120S-orange?)](https://www.novus.com.br/site/default.asp?TroncoID=508083&secaoID=547383&SubSecaoID=727292&Template=../catalogos/layout_produto.asp&ProdutoID=293738)
+
+- 
+
+<details>
+  <summary><b>📜 Ver ejemplo del código en Python </b>></summary>
+ 
+```python
+
+```
+
+</details> 
+
+
+<details>
+  <summary><b>📜 Aplicación </b>></summary>
+
+![Cristalización](https://drive.google.com/uc?export=view&id=1FBPtxAnipIjrpIgO9ms8j3TBNU5uLvnN)
 
 </details>
+
