@@ -73,4 +73,11 @@ def on_init(state):
 </details> 
 
 
+<details>
+  <summary><b>📜 Aplicación </b>></summary>
+
+![Monitoreo remoto](https://drive.google.com/file/d/1L07g0xDrygkLB1vOwiCdOPpOJMcvkvYx/view)
+
+</details>
+
 sadasda
