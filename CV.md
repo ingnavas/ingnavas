@@ -320,3 +320,138 @@ pid = PIDController(kc, ti, td, tempo_amostra_cascata,reset_aw, output_limits=(s
 
 </details>
 
+<!-- TERCER PROYECTO -->
+## 2024
+
+### Software para ensayo DSL (Dynamic Scale Loop)
+
+En esta applicación comanda el equipo para análisis DSL, modelo MTDE de la empresa Biofoco Equipamentos para Laboratórios de Brasil
+
+**Caracteristicas:**  
+- Lenguaje python
+- Frontend en [![Taipy](https://img.shields.io/badge/Taipy-gui-blue?logo=python&logoColor=white)](https://taipy.io/) usando server local
+- Comunicación modbus RTU, y protocolo propio de Jasco en RS232
+- Algoritmo de control de temperatura en cascada
+- Procesamiento paralelo en  [![Threads](https://img.shields.io/badge/Threads-paralelismo-green)](https://www.linkedin.com/pulse/taipy-integration-data-acquisition-systems-navarrete-rodriguez-d7igc/?trackingId=WMqY4PWJRASx%2FvyMkzbxWg%3D%3D)
+
+
+
+
+**Hardware:**  
+
+- [![Bombas HPLC](https://img.shields.io/badge/Jasco-Bombas-yellow?)](https://jascoinc.com/products/chromatography/hplc/modules/hplc-pumps/)
+
+- [![Fieldlogger](https://img.shields.io/badge/Novus-Fieldlogger-green?)](https://www.novus.com.br/pt/produto/data-loggers/fieldlogger)
+
+- [![Controlador](https://img.shields.io/badge/Novus-Controlador%20N120S-orange?)](https://www.novus.com.br/site/default.asp?TroncoID=508083&secaoID=547383&SubSecaoID=727292&Template=../catalogos/layout_produto.asp&ProdutoID=293738)
+
+- [![Transmisor](https://img.shields.io/badge/Yokogawa-Presi%C3%B3n%20diferencial-orange?)](https://www.yokogawa.com/br/solutions/products-and-services/measurement/field-instruments-products/pressure-transmitters/differential-pressure/eja110e/)
+
+- [![Transmisor](https://img.shields.io/badge/Velki-Presi%C3%B3n%20manom%C3%A9trica-blue?)](https://velki.com.br/pt/produto/medidores-de-pressao/transmissores-de-pressao/transmissor-de-pressao-mini-ip65-ceramico---vkp-091)
+
+
+
+<details>
+  <summary><b>📜 Ver ejemplo del código en Python </b>></summary>
+ 
+```python
+
+class PIDController:
+    def __init__(self, Kp, Ki, Kd, T,Kaw, output_limits=(-float('inf'), float('inf'))):
+        """
+        PID Controller with anti-windup and bumpless transfer.
+
+        Parameters:
+        - Kp (float): Proportional gain
+        - Ki (float): Integral gain
+        - Kd (float): Derivative gain
+        - T (float): Sampling time (seconds)
+        - output_limits (tuple): Min and max output limits (anti-windup)
+        """
+        self.Kp = Kp
+        self.Ki = Ki
+        self.Kd = Kd
+        self.T = T
+        self.output_limits = output_limits
+        
+        # Internal states
+        self.integral = 0.0
+        self.prev_error = 0.0
+        self.prev_output = 0.0
+        self.prev_derivative = 0.0
+        self.setpoint = 0.0  # Desired value
+        
+        # Anti-windup
+        self.I_term = 0.0  # Integral term for bumpless transfer
+        self.Kaw = Kaw  # Anti-windup coefficient
+
+    def update(self, measurement):
+        """
+        Computes the PID control action.
+        
+        Parameters:
+        - measurement (float): Process variable (PV)
+
+        Returns:
+        - control_output (float): PID output
+        """
+        error = self.setpoint - measurement
+        # Proportional term
+        P_term = self.Kp * error
+
+        # Integral term with anti-windup
+        self.I_term += self.Ki * error * self.T
+        self.I_term -= self.Kaw * (self.prev_output - self.clamp(self.prev_output))  # Anti-windup correction
+        
+        # Derivative term (using backward difference)
+        derivative = (error - self.prev_error) / self.T
+        D_term = self.Kd * derivative
+        
+        # Compute total output
+        output = P_term + self.I_term + D_term
+
+        self.prev_output = output
+        # Apply output limits (clamping)
+        output = self.clamp(output)
+
+        # Store values for next iteration
+        self.prev_error = error
+        self.prev_derivative = derivative
+
+        return output
+
+    def clamp(self, value):
+        """
+        Limits the output to avoid integral windup.
+        """
+
+        min_output, max_output = self.output_limits
+        return max(min(value, max_output), min_output)
+
+    def set_setpoint(self, new_setpoint):
+        """
+        Updates the setpoint with bumpless transfer.
+        
+        Parameters:
+        - new_setpoint (float): Desired setpoint
+        """
+        delta_setpoint = new_setpoint - self.setpoint
+        self.setpoint = new_setpoint
+        self.I_term += delta_setpoint * self.Ki * self.T  # Bumpless transfer for integral action
+
+pid = PIDController(kc, ti, td, tempo_amostra_cascata,reset_aw, output_limits=(sat_min, sat_max))
+
+
+```
+
+</details> 
+
+
+<details>
+  <summary><b>📜 Aplicación </b>></summary>
+
+![DSL/MTED](https://drive.google.com/uc?export=view&id=1jBoOb9EYk22-cXdPvHVymaITFLeRyFqR)
+
+
+</details>
+
