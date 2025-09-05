@@ -7,7 +7,7 @@
 ## 2025  
 ### Sistema de Monitoramento de Variábles Remotas
 
-Esta applicación  comunica con un gateway GSM/Modbus para colectar datos de un sensor remoto y realiza una visualización de datos. Ejecuta en un server local con lectura on-line.
+Esta aplicación  comunica con un gateway GSM/Modbus para colectar datos de un sensor remoto y realiza una visualización de datos. Ejecuta en un server local con lectura on-line.
 
 **Caracteristicas:**  
 - Lenguaje python.
@@ -94,7 +94,7 @@ def on_init(state):
 
 ### Clasificador de tamaño de partículas en cristalización
 
-Esta applicación realiza la clasificación del tamaño de particulas a partir de imagenes de un proceso de cristalización durante un determinado intervalo de tiempo. Ejecuta en un server local con lectura off-line.
+Esta aplicación realiza la clasificación del tamaño de particulas a partir de imagenes de un proceso de cristalización durante un determinado intervalo de tiempo. Ejecuta en un server local con lectura off-line.
 
 **Caracteristicas:**  
 - Lenguaje python.
@@ -732,6 +732,39 @@ void loop() {
   <summary><b>📜 Aplicación </b>></summary>
 
 ![Paneles](https://drive.google.com/uc?export=view&id=1RXv_XtWBBSXE_-u39rQp9afaiXxkXpOF)
+
+</details>
+
+--
+
+<!-- QUINTO PROYECTO -->
+
+## 2022
+### Grabación y control de calidad de placas electrónicas
+
+Esta aplicación  grava microcontroladores STMicroelectronics y através de un hardware personalizado realiza un ensayo que identifica defectos en la producción de placas electrónicas. 
+
+**Caracteristicas:**  
+- Lenguaje labview.
+
+**Hardware:**  
+
+- Personalizado  desarrollado por el cliente
+
+
+<details>
+  <summary><b>📜 Ver ejemplo del código en labview </b>></summary>
+ 
+ ![Snipped labview](https://drive.google.com/uc?export=view&id=1eq2ARQ8EnMts_C7aP2tix-5ZTqGg9tOM)
+
+
+</details> 
+
+
+<details>
+  <summary><b>📜 Aplicación </b>></summary>
+
+![Monitoreo remoto](https://drive.google.com/uc?export=view&id=1gOmprDDvN5PKs5ydAp5ZWZYX6YLsWseq)
 
 </details>
 
