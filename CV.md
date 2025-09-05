@@ -2,10 +2,12 @@
 
 ## Projects
 
+<!-- PRIMER PROYECTO -->
+
 ## 2025  
 ### Sistema de Monitoramento de Variábles Remotas
 
-En esta applicación de realiza una comunicación con un gateway GSM/Modbus para colectar datos de un sensor remoto e se realiza una visualización en un server local
+En esta applicación de realiza una comunicación con un gateway GSM/Modbus para colectar datos de un sensor remoto y se realiza una visualización en un server local
 
 **Linguagem:**  
 - Python, usando [![Taipy](https://img.shields.io/badge/Taipy-gui-blue?logo=python&logoColor=white)](https://taipy.io/) para server local  
@@ -85,4 +87,95 @@ def on_init(state):
 
 </details>
 
-sadasda
+<!-- SEGUNDO PROYECTO -->
+
+
+### Clasificador de tamaño de partículas en cristalización
+
+En esta applicación de realiza una clasificación del tamaño de particulas en un proceso de cristalización
+
+**Linguagem:**  
+- Python, usando [![Taipy](https://img.shields.io/badge/Taipy-gui-blue?logo=python&logoColor=white)](https://taipy.io/) para server local  
+
+**Hardware:**  
+
+No aplica, usa imagenes provenientes de cualquier microscopio, teniendo una referencia de distancia de medida
+
+<details>
+  <summary><b>📜 Ver ejemplo del código en Python </b>></summary>
+ 
+```python
+#@BRIEF:                    Realiza la calibración manual
+#@PARAM state:              Variables de estado de la instancia
+def manual_calibration(state):
+    drawing = False  # verdadero si el mouse es presionado
+    ix, iy = -1, -1  # coordenadas iniciales
+    img_gray= cv2.imread(state.content_load_calibration, cv2.IMREAD_GRAYSCALE)
+    img = cv2.cvtColor(img_gray, cv2.COLOR_GRAY2BGR)
+    img_copy = img.copy()
+
+    # funcion de llamada el mouse
+    def draw_line(event, x, y, flags, param):
+        nonlocal ix, iy, drawing, img_copy
+
+        if event == cv2.EVENT_LBUTTONDOWN:
+            drawing = True
+            ix, iy = x, y
+
+        elif event == cv2.EVENT_MOUSEMOVE:
+            if drawing:
+                img_copy = img.copy()
+                cv2.line(img_copy, (ix, iy), (x, y), (0, 255, 0), 2)
+                cv2.putText(img_copy, f"Inicio: ({ix},{iy})", (10, 100),
+                            cv2.FONT_HERSHEY_SIMPLEX, 3, (255, 255, 255), 5)
+                cv2.putText(img_copy, f"Fin: ({x},{y})", (10, 200),
+                            cv2.FONT_HERSHEY_SIMPLEX, 3, (255, 255, 255), 5)
+
+        elif event == cv2.EVENT_LBUTTONUP:
+            drawing = False
+            cv2.line(img_copy, (ix, iy), (x, y), (0, 255, 0), 8)
+            state.point_x1=ix
+            state.point_y1=iy
+            state.point_x2=x
+            state.point_y2=y
+
+            print(f"Line drawn from ({ix}, {iy}) to ({x}, {y})")
+            cv2.putText(img_copy, f"Inicio: ({ix},{iy})", (10, 100),
+                        cv2.FONT_HERSHEY_SIMPLEX, 3, (255, 255, 255), 5)
+            cv2.putText(img_copy, f"Fin: ({x},{y})", (10, 200),
+                        cv2.FONT_HERSHEY_SIMPLEX, 3, (255, 255, 255), 5)
+
+    # Set up window
+    cv2.namedWindow("Draw Line", cv2.WINDOW_NORMAL)
+    cv2.setMouseCallback("Draw Line", draw_line)
+    cv2.setWindowProperty("Draw Line", cv2.WND_PROP_TOPMOST, 1)  
+
+    while True:
+        cv2.imshow("Draw Line", img_copy)
+
+        if cv2.waitKey(1) & 0xFF == 13: # ENTER key (13)
+            break
+
+    cv2.destroyAllWindows()
+    
+    cv2.line(img, (state.point_x1, state.point_y1), (state.point_x2, state.point_y2), (0, 255, 0), 8)
+    cv2.imwrite("cal_man.png", img)
+    state.um_per_pixel = int(state.micrometer_spacing)*int(state.lines_number)/ int(abs(state.point_x2-state.point_x1))
+    state.um_per_pixel=state.um_per_pixel
+    state.content_show_calibration="cal_man.png"
+    state.content_show_calibration=state.content_show_calibration
+    notify(state, "warning", f"🪜 Verifique el número de intervalos usados")
+    state.cal_from='Manual'
+```
+
+</details> 
+
+
+<details>
+  <summary><b>📜 Aplicación </b>></summary>
+
+![Cristalización](https://drive.google.com/uc?export=view&id=1FBPtxAnipIjrpIgO9ms8j3TBNU5uLvnN)
+
+
+
+</details>
