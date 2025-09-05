@@ -1,6 +1,6 @@
 
 ### Hello
-## I’m Jaime Eduardo Navarrete 👋  [![español](https://img.shields.io/badge/lang-es-yellow.svg)](# Hola)) 
+## I’m Jaime Eduardo Navarrete 👋  [![español](https://img.shields.io/badge/lang-es-yellow.svg)](#Hola)) 
 ### About Me 🔧
 
 I design solutions for data acquisition from physical systems through hardware and software integration.
