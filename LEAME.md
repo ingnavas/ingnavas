@@ -13,6 +13,8 @@ A lo largo de los años, he trabajado extensamente con:
 
 * Desarrollo de interfaces HMI para aplicaciones industriales y de laboratorio en Lua (desde 2013)
 
+* Arduino (desde 2010) y ESP32 (desde 2018)
+
 * Integración de hardware y software para sistemas de medición confiables (desde 1999)
 
 ### Experiencia en Adquisición de Datos 📊
@@ -21,11 +23,11 @@ Tengo experiencia práctica en el diseño e implementación de sistemas de adqui
 
 Además, cuento con algo de experiencia en análisis de imágenes aplicado a entornos de laboratorio.
 
-Esta experiencia me permite cerrar la brecha entre sensores, hardware y software inteligente, garantizando un flujo de información preciso y confiable desde el mundo físico hasta los sistemas de toma de decisiones.
+Esto me permite cerrar la brecha entre sensores, hardware y software inteligente, garantizando un flujo de información preciso y confiable desde el mundo físico hasta los sistemas de toma de decisiones.
 
 ### Formación Académica 🎓
 
-Soy Doctor en Ingeniería Eléctrica, en el área del conocimiento que abarca:
+Soy Doctor en Ingeniería Eléctrica (2010), en el área del conocimiento que abarca:
 
 * Control Clásico (PID, en cascada, etc.)
 
@@ -45,7 +47,7 @@ Al combinar mi experiencia en adquisición de datos con mi formación académica
 
 * Ofrecen arquitecturas escalables para entornos industriales y de laboratorio
 
-* Transforman los datos de sensores en información accionable para la toma de decisiones
+* Transforman los datos de sensores en información para la toma de decisiones
 
 ### En resumen
 
