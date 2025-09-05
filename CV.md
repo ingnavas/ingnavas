@@ -4,9 +4,6 @@
 
 ## 2025  
 ### Sistema de Monitoramento de Variábles Remotas
-![My Badge](https://img.shields.io/badge/play-station-blue.svg?logo=https://drive.google.com/file/d/1BpDYenlUGHWDD_Wcqu-7zP2vNmv-jDSp/view?usp=sharing)
-
-https://drive.google.com/uc?export=view&id=1L07g0xDrygkLB1vOwiCdOPpOJMcvkvYx
 
 En esta applicación de realiza una comunicación con un gateway GSM/Modbus para colectar datos de un sensor remoto e se realiza una visualización en un server local
 
@@ -14,9 +11,13 @@ En esta applicación de realiza una comunicación con un gateway GSM/Modbus para
 - Python, usando [![Taipy](https://img.shields.io/badge/Taipy-gui-blue?logo=python&logoColor=white)](https://taipy.io/) para server local  
 
 **Hardware:**  
-- [![TRB145](https://img.shields.io/badge/Teltonika-TRB145-green?logo=raspberrypi&logoColor=white)](https://teltonika-networks.com/products/gateways/trb145)  
-- [![Polilyte](https://img.shields.io/badge/Hamilton-Polilyte%20Plus%20PHI%20Arc%20120-orange?logo=labview&logoColor=white)](https://www.hamiltoncompany.com/product-specs/242428-4313)
 
+- [![TRB145](https://img.shields.io/badge/Teltonika-TRB145-green?logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIwIiBoZWlnaHQ9IjIyMCIgdmlld0JveD0iMCAwIDIyMCAyMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBvbHlnb24gcG9pbnRzPSI0MCwxMTAgMTEwLDQwIDE1MCw4MCA4MCwxNTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iMTAiLz4KICA8cG9seWdvbiBwb2ludHM9IjgwLDExMCAxNTAsNDAgMTkwLDgwIDEyMCwxNTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iMTAiLz4KICA8cG9seWdvbiBwb2ludHM9IjEyMCwxMTAgMTkwLDQwIDIyMCw3MCAxNTAsMTUwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjEwIi8+Cjwvc3ZnPg==)](https://teltonika-networks.com/products/gateways/trb145)
+
+- [![Polilyte](https://img.shields.io/badge/Hamilton-Polilyte%20Plus%20PHI%20Arc%20120-orange?logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgdmlld0JveD0iMCAwIDEyMCAxMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPGNpcmNsZSBjeD0iNjAiIGN5PSI2MCIgcj0iNTgiIGZpbGw9IiMyMTJGNEEiIC8+CiAgPHRleHQgeD0iNTAlIiB5PSI2MiUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiCiAgICAgICAgZm9udC1mYW1pbHk9IkJydXNoIFNjcmlwdCBNVCwgQnJ1c2hTY3JpcHRNVCwgY3Vyc2l2ZSIKICAgICAgICBmb250LXNpemU9IjgwIiBmaWxsPSIjZmZmIj4KICAgIEgKICA8L3RleHQ+Cjwvc3ZnPg==)](https://www.hamiltoncompany.com/product-specs/242428-4313)
+
+
+https://raw.githubusercontent.com/ingnavas/assets/refs/heads/main/Hamilton.svg
 <details>
   <summary><b>📜 Ver ejemplo del código en Python </b>></summary>
  
