@@ -12,7 +12,9 @@
 - [![TRB145](https://img.shields.io/badge/Teltonika-TRB145-green?logo=raspberrypi&logoColor=white)](https://teltonika-networks.com/products/gateways/trb145)  
 - [![Polilyte](https://img.shields.io/badge/Hamilton-Polilyte%20Plus%20PHI%20Arc%20120-orange?logo=labview&logoColor=white)](https://www.hamiltoncompany.com/product-specs/242428-4313)
 
-**Exemplo de snippet do código**
+<details>
+  <summary><b>📜 Ver ejemplo del código en Python </b>></summary>
+ 
 ```python
 class ToAcquisition:
     """
@@ -66,4 +68,9 @@ def on_init(state):
     invoke_long_callback(state=state,
                                 user_function=acquisition, user_function_args=[state.gui, get_state_id(state), state.to_acquisition],
                                 user_status_function=status_fct, user_status_function_args=[])
+```
 
+</details> 
+
+
+sadasda
