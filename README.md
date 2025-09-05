@@ -22,7 +22,7 @@ This expertise allows me to bridge the gap between sensors, hardware, and intell
 
 ### Academic Background 🎓
 
-I hold a PhD in Chemical Engineering, with specialization in:
+I hold a PhD in Electrical Engineering in the area of Control Systems, including:
 
 * Classical Control (PID, cascade, etc.)
 
