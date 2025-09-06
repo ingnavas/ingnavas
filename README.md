@@ -1,6 +1,6 @@
 
 ## Hello
-## 👋 I’m Jaime Eduardo Navarrete   [![español](https://img.shields.io/badge/lang-es-yellow?labelColor=red&color=yellow)](#hola) [![proyectos](https://img.shields.io/badge/projects-all-blue?labelColor=%2390EE90&color=%23006400)](#últimos-proyectos-o-proyectos-importantes--)
+## 👋 I’m Jaime Eduardo Navarrete   [![español](https://img.shields.io/badge/lang-es-yellow?labelColor=red&color=yellow)](#hola) [![proyectos](https://img.shields.io/badge/projects-all-blue?labelColor=blue&color=green)](#últimos-proyectos-o-proyectos-importantes--)
 
 ### 🔧 About Me 
 
@@ -59,7 +59,7 @@ By combining my Data Acquisition Expertise with my Academic Background in contro
 
 ## Hola
 
-## 👋 Soy Jaime Eduardo Navarrete  [![english](https://img.shields.io/badge/lang-en-yellow?labelColor=red&color=white)](#hello) [![proyectos](https://img.shields.io/badge/proyectos-todos-blue?labelColor=%2390EE90&color=%23006400)](#últimos-proyectos-o-proyectos-importantes--)
+## 👋 Soy Jaime Eduardo Navarrete  [![english](https://img.shields.io/badge/lang-en-yellow?labelColor=red&color=white)](#hello) [![proyectos](https://img.shields.io/badge/proyectos-todos-blue?labelColor=blue&color=green)](#últimos-proyectos-o-proyectos-importantes--)
 
 ### 🔧 Sobre mí 
 
@@ -136,12 +136,12 @@ Esta aplicación  comunica con un gateway GSM/Modbus para colectar datos de un s
 
 - [![TRB145](https://img.shields.io/badge/Teltonika-TRB145-green)](https://teltonika-networks.com/products/gateways/trb145).
 
-- [![Polilyte](https://img.shields.io/badge/Hamilton-Polilyte%20Plus%20PHI%20Arc%20120-orange)](https://www.hamiltoncompany.com/product-specs/242428-4313).
+- [![Polilyte](https://img.shields.io/badge/Hamilton-Polilyte%20Plus%20PHI%20Arc%20120-green)](https://www.hamiltoncompany.com/product-specs/242428-4313).
 
-#### Trecho de código
+#### Previa:
 <details>
  
-  <summary><b>🔽Ver / 🔼 Ocultar</b></summary>
+  <summary><b>🔽Ver código / 🔼 Ocultar código</b></summary>
  
 ```python
 class ToAcquisition:
