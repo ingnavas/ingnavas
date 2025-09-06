@@ -138,10 +138,10 @@ Esta aplicación  comunica con un gateway GSM/Modbus para colectar datos de un s
 
 - [![Polilyte](https://img.shields.io/badge/Hamilton-Polilyte%20Plus%20PHI%20Arc%20120-orange)](https://www.hamiltoncompany.com/product-specs/242428-4313).
 
-
+#### Trecho de código
 <details>
  
-  <summary><b>🔽 Ver código / 🔼 Ocultar código</b></summary>
+  <summary><b>🔽Ver / 🔼 Ocultar</b></summary>
  
 ```python
 class ToAcquisition:
@@ -198,6 +198,7 @@ def on_init(state):
                                 user_status_function=status_fct, user_status_function_args=[])
 ```
 
+[![español](https://img.shields.io/badge/lang-es-yellow)](#trecho-de-código)
 </details> 
 
 
