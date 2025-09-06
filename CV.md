@@ -898,13 +898,14 @@ Esta es una aplicación para lectura de variables electricas e la determinacion 
 
 **Hardware:**  
 
--  [![Fuente de mediciones dinamicas Agilent](https://img.shields.io/badge/Agilent-6634B-blue](https://www.embarcadero.com/br/products/delphi)  Fuente de mediciones dinamicas Agilent
--  [![Picoamperimetro Keithley](https://img.shields.io/badge/Keithley-6487-blue](https://www.tek.com/en/datasheet/series-6400-picoammeters/6487-picoammeter-voltage-source) 
+- [![Fuente de mediciones dinámicas Agilent](https://img.shields.io/badge/Agilent-6634B-blue)](https://www.keysight.com/find/6634B)
+- [![Picoamperímetro Keithley](https://img.shields.io/badge/Keithley-6487-blue)](https://www.tek.com/en/datasheet/series-6400-picoammeters/6487-picoammeter-voltage-source)
+
 
 
 
 <details>
-  <summary><b>📜 Ver ejemplo del código en labview </b>></summary>
+  <summary><b>📜 Ver ejemplo del código en pascal </b>></summary>
  
  ```Pascal
 
