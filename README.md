@@ -908,10 +908,10 @@ Esta aplicación  grava microcontroladores STMicroelectronics y através de un h
 ## 2021
 ### Interface HMI para Reator Químico
 
-Esta aplicación  gerencia en una interface hombre-maquina el monitoreo y control de un reactor químico de laboratório
+Esta aplicación  gerencia en una interface hombre-maquina el monitoreo y control de la temperatura y la presión de un reactor químico de laboratório
 
 **Caracteristicas:**  
-- Lenguaje: [![ambiente DOPSoft](https://img.shields.io/badge/Delta-DOPSoft?logo=delta&logoColor=white)](https://downloadcenter.deltaww.com/en-US/DownloadCenter?v=1&dataType=8&q=DOPSoft&sort_expr=cdate&sort_dir=DESC)
+- Lenguaje: [![ambiente DOPSoft](https://img.shields.io/badge/Delta-DOPSoft-blue?logo=delta&logoColor=white)](https://downloadcenter.deltaww.com/en-US/DownloadCenter?v=1&dataType=8&q=DOPSoft&sort_expr=cdate&sort_dir=DESC)
 - Comunicación: Modbus RTU
 
 **Hardware:**  
@@ -1030,7 +1030,7 @@ Esta es una aplicación basada en procesamiento de imagen, desarrollada para o l
 ## 2013
 ### CAMPO ELÉCTRICO CRÍTICO
 
-Esta es una aplicación para lectura de variables electricas e la determinacion de campos electricos en celulas de ensayo de emulsioes óleo agua
+Esta es una aplicación para lectura de variables electricas y la determinacion de campos electricos en celulas de ensayo de emulsioes óleo agua
 
 **Caracteristicas:**  
 - Lenguaje: [![Lenguaje Pascal / Delphi](https://img.shields.io/badge/Pascal-Delphi-blue?logo=delphi&logoColor=white)](https://www.embarcadero.com/br/products/delphi)
@@ -1150,6 +1150,7 @@ end;
 --
 
 ## OTROS PROYECTOS
+- 2021-2023 Interfaces de ensayos en placas electrónicas - Lenguaje: labview
 - 2019 e-Trasmisor realizando medidas de presión de un transmisor diferencial marca Yokogawa - Lenguaje: labview
 - 2017 Interfaces para ultrafreezer -90º marca Coldlab - Lenguaje de DOPSoft Delta
 - 2015 Medidor de turbidez para registro de datos de un turbidímetro marca Mettler Toledo - Lenguaje: labview
