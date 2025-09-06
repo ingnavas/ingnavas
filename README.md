@@ -335,8 +335,10 @@ Esta applicación gerencia el equipo para análisis DSL (Dynamic Scale Loop), mo
 
 
 
+#### Previa:
 <details>
-  <summary><b>📜 Ver ejemplo del código en Python </b>></summary>
+ 
+  <summary><b>🔽Ver código / 🔼 Ocultar código</b></summary>
  
 ```python
 
@@ -428,11 +430,12 @@ pid = PIDController(kc, ti, td, tempo_amostra_cascata,reset_aw, output_limits=(s
 
 ```
 
+[![volver](https://img.shields.io/badge/⏪-volver-blue?labelColor=white&color=blue)](#previa-2)
 </details> 
 
 
 <details>
-  <summary><b>👁️ Ver aplicación / 🙈 Ocultar aplicación</b></summary>
+    <summary><b>👁️ Ver aplicación / 🙈 Ocultar aplicación</b></summary>
 
 ![DSL/MTED](https://drive.google.com/uc?export=view&id=1jBoOb9EYk22-cXdPvHVymaITFLeRyFqR)
 
