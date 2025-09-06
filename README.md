@@ -1,6 +1,6 @@
 
 ### Hello
-## I’m Jaime Eduardo Navarrete 👋  [![español](https://img.shields.io/badge/lang-es-yellow.svg)](#hola) 
+## 👋 I’m Jaime Eduardo Navarrete   [![español](https://img.shields.io/badge/lang-es-yellow)](#hola) 
 ### About Me 🔧
 
 I design solutions for data acquisition from physical systems through hardware and software integration.
@@ -49,7 +49,7 @@ By combining my Data Acquisition Expertise with my Academic Background in contro
 
 * Transform raw sensor data into actionable insights for decision-making.
 
-## In short
+## In short 🧩
 **I bring the rigor of research and the practicality of engineering to create innovative solutions for industrial challenges — measuring the real world to enable better decisions about it.**
 
 
@@ -58,7 +58,7 @@ By combining my Data Acquisition Expertise with my Academic Background in contro
 
 ### Hola
 
-## Soy Jaime Eduardo Navarrete 👋 [![english](https://img.shields.io/badge/lang-en-blue.svg)](#hello) 
+## 👋 Soy Jaime Eduardo Navarrete  [![english](https://img.shields.io/badge/lang-en-yellow)](#hello) 
 
 ### Sobre mí 🔧
 
@@ -110,7 +110,7 @@ Al combinar mi experiencia en adquisición de datos con mi formación académica
 
 * Transforman los datos de sensores en información para la toma de decisiones.
 
-### En resumen
+### En resumen 🧩
 
 Aporto el rigor de la investigación y la practicidad de la ingeniería para crear soluciones innovadoras a los desafíos industriales — midiendo el mundo real para poder tomar mejores decisiones sobre él.
 
