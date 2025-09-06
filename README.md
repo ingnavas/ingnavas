@@ -309,29 +309,30 @@ def manual_calibration(state):
 <!-- TERCER PROYECTO -->
 ## 2024
 
-### Software para ensayo DSL (Dynamic Scale Loop)
+### Software para Ensayo DSL (Dynamic Scale Loop)
 
-Esta applicación comanda el equipo para análisis DSL, modelo MTDE de la empresa Biofoco Equipamentos para Laboratórios de Brasil. Ejecuta en un server local con lectura on-line.
+Esta applicación gerencia el equipo para análisis DSL (Dynamic Scale Loop), modelo MTDE de la empresa Biofoco Equipamentos para Laboratórios de Brasil, adquisitando temperaturas, presiones manométricas y una presión diferencial. Incorpora un algoritmo de control en cascada para la temperatura
 
 **Caracteristicas:**  
-- Lenguaje python.
-- Frontend en [![Taipy](https://img.shields.io/badge/Taipy-gui-blue?logo=python&logoColor=white)](https://taipy.io/) usando server local.
+- Lenguaje: [![Python](https://img.shields.io/badge/Python-daq-blue?logo=python&logoColor=white)](https://www.python.org/).
+- Frontend: [![Taipy](https://img.shields.io/badge/Taipy-gui-blue?logo=taipy&logoColor=white)](https://taipy.io/) usando server local.
+- Procesamiento paralelo en  [![Threads](https://img.shields.io/badge/Threads-paralelismo-blue)](https://www.linkedin.com/pulse/taipy-integration-data-acquisition-systems-navarrete-rodriguez-d7igc/?trackingId=WMqY4PWJRASx%2FvyMkzbxWg%3D%3D).
 - Comunicación modbus RTU, y protocolo propio de Jasco en RS232.
-- Algoritmo de control de temperatura en cascada.
-- Procesamiento paralelo en  [![Threads](https://img.shields.io/badge/Threads-paralelismo-green)](https://www.linkedin.com/pulse/taipy-integration-data-acquisition-systems-navarrete-rodriguez-d7igc/?trackingId=WMqY4PWJRASx%2FvyMkzbxWg%3D%3D).
+
 
 
 **Hardware:**  
 
-- [![Bombas HPLC](https://img.shields.io/badge/Jasco-Bombas-yellow?)](https://jascoinc.com/products/chromatography/hplc/modules/hplc-pumps/).
+- [![Bombas HPLC](https://img.shields.io/badge/Jasco-Bombas-green?)](https://jascoinc.com/products/chromatography/hplc/modules/hplc-pumps/).
 
 - [![Fieldlogger](https://img.shields.io/badge/Novus-Fieldlogger-green?)](https://www.novus.com.br/pt/produto/data-loggers/fieldlogger).
 
-- [![Controlador](https://img.shields.io/badge/Novus-Controlador%20N120S-orange?)](https://www.novus.com.br/site/default.asp?TroncoID=508083&secaoID=547383&SubSecaoID=727292&Template=../catalogos/layout_produto.asp&ProdutoID=293738).
+- [![Controlador](https://img.shields.io/badge/Novus-Controlador%20N120S-green?)](https://www.novus.com.br/site/default.asp?TroncoID=508083&secaoID=547383&SubSecaoID=727292&Template=../catalogos/layout_produto.asp&ProdutoID=293738).
 
-- [![Transmisor](https://img.shields.io/badge/Yokogawa-Presi%C3%B3n%20diferencial-orange?)](https://www.yokogawa.com/br/solutions/products-and-services/measurement/field-instruments-products/pressure-transmitters/differential-pressure/eja110e/).
+- [![Transmisor](https://img.shields.io/badge/Yokogawa-Presi%C3%B3n%20diferencial-green?)](https://www.yokogawa.com/br/solutions/products-and-services/measurement/field-instruments-products/pressure-transmitters/differential-pressure/eja110e/).
 
-- [![Transmisor](https://img.shields.io/badge/Velki-Presi%C3%B3n%20manom%C3%A9trica-blue?)](https://velki.com.br/pt/produto/medidores-de-pressao/transmissores-de-pressao/transmissor-de-pressao-mini-ip65-ceramico---vkp-091).
+- [![Transmisor](https://img.shields.io/badge/Velki-Presi%C3%B3n%20manom%C3%A9trica-green?)](https://velki.com.br/pt/produto/medidores-de-pressao/transmissores-de-pressao/transmissor-de-pressao-mini-ip65-ceramico---vkp-091).
+
 
 
 <details>
