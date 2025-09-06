@@ -226,8 +226,9 @@ Esta aplicación realiza la clasificación del tamaño de particulas a partir de
 
 No aplica, usa imagenes provenientes de cualquier microscopio, teniendo una referencia de distancia de medida.
 
+### Previa
 <details>
-  <summary><b>📜 Ver ejemplo del código en Python </b>></summary>
+ <summary><b>🔽Ver código / 🔼 Ocultar código</b></summary>
  
 ```python
 #@BRIEF:                    Realiza la calibración manual
@@ -292,12 +293,12 @@ def manual_calibration(state):
     notify(state, "warning", f"🪜 Verifique el número de intervalos usados")
     state.cal_from='Manual'
 ```
-
+[![volver](https://img.shields.io/badge/⏪-volver-blue?labelColor=white&color=blue)](#previa-1)
 </details> 
 
 
 <details>
-  <summary><b>📜 Aplicación </b>></summary>
+    <summary><b>👁️ Ver aplicación / 🙈 Ocultar aplicación</b></summary>
 
 ![Cristalización](https://drive.google.com/uc?export=view&id=1FBPtxAnipIjrpIgO9ms8j3TBNU5uLvnN)
 
@@ -430,7 +431,7 @@ pid = PIDController(kc, ti, td, tempo_amostra_cascata,reset_aw, output_limits=(s
 
 
 <details>
-  <summary><b>📜 Aplicación </b>></summary>
+  <summary><b>👁️ Ver aplicación / 🙈 Ocultar aplicación</b></summary>
 
 ![DSL/MTED](https://drive.google.com/uc?export=view&id=1jBoOb9EYk22-cXdPvHVymaITFLeRyFqR)
 
