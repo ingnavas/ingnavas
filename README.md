@@ -1,6 +1,6 @@
 
 ## Hello
-## 👋 I’m Jaime Eduardo Navarrete   [![español](https://img.shields.io/badge/lang-es-yellow)](#hola) [![proyectos](https://img.shields.io/badge/projects-all-blue)](#últimos-proyectos-o-proyectos-importantes--)
+## 👋 I’m Jaime Eduardo Navarrete   [![español](https://img.shields.io/badge/lang-es-yellow?labelColor=red&color=yellow)](#hola) [![proyectos](https://img.shields.io/badge/projects-all-blue?labelColor=%2390EE90&color=%23006400)](#últimos-proyectos-o-proyectos-importantes--)
 
 ### 🔧 About Me 
 
@@ -59,7 +59,7 @@ By combining my Data Acquisition Expertise with my Academic Background in contro
 
 ## Hola
 
-## 👋 Soy Jaime Eduardo Navarrete  [![english](https://img.shields.io/badge/lang-en-yellow)](#hello) [![proyectos](https://img.shields.io/badge/proyectos-todos-blue)](#últimos-proyectos-o-proyectos-importantes--)
+## 👋 Soy Jaime Eduardo Navarrete  [![english](https://img.shields.io/badge/lang-en-yellow?labelColor=red&color=white)](#hello) [![proyectos](https://img.shields.io/badge/proyectos-todos-blue?labelColor=%2390EE90&color=%23006400)](#últimos-proyectos-o-proyectos-importantes--)
 
 ### 🔧 Sobre mí 
 
@@ -118,14 +118,14 @@ Aporto el rigor de la investigación y la practicidad de la ingeniería para cre
 <hr style="height:5px; background-color:blue; border:none; width:50%;" />
 
 
-## Últimos proyectos o proyectos importantes [![english](https://img.shields.io/badge/lang-en-yellow)](#hello) [![español](https://img.shields.io/badge/lang-es-yellow)](#hola)
+## Últimos proyectos o proyectos importantes [![english](https://img.shields.io/badge/lang-en-yellow?labelColor=red&color=white)](#hello) [![español](https://img.shields.io/badge/lang-es-yellow?labelColor=red&color=yellow)](#hola)
 
 <!-- PRIMER PROYECTO -->
 
 ## 2025  
 ### Sistema de Monitoramento de Variábles Remotas
 
-Esta aplicación  comunica con un gateway GSM/Modbus para colectar datos de un sensor remoto y realiza una visualización de datos.
+Esta aplicación  comunica con un gateway GSM/Modbus para colectar datos de un sensor remoto y realiza una visualización de datos en un dashboard.
 
 **Caracteristicas:**  
 - Lenguaje: [![Python](https://img.shields.io/badge/Python-daq-blue?logo=python&logoColor=white)](https://www.python.org/).
@@ -212,15 +212,15 @@ def on_init(state):
 ---
 <!-- SEGUNDO PROYECTO -->
 
-### Clasificador de tamaño de partículas en cristalización
+### Clasificador de Tamaño de Partículas en Cristalización
 
-Esta aplicación realiza la clasificación del tamaño de particulas a partir de imagenes de un proceso de cristalización durante un determinado intervalo de tiempo. Ejecuta en un server local con lectura off-line.
+Esta aplicación realiza la clasificación del tamaño de particulas a partir de imagenes tomadas de muestras de un proceso de cristalización durante un determinado intervalo de tiempo.
 
 **Caracteristicas:**  
-- Lenguaje python.
-- Frontend en [![Taipy](https://img.shields.io/badge/Taipy-gui-blue?logo=python&logoColor=white)](https://taipy.io/) usando server local.
-- OpenCV.
-- Banco de datos SQLite.
+- Lenguaje: [![Python](https://img.shields.io/badge/Python-daq-blue?logo=python&logoColor=white)](https://www.python.org/).
+- Frontend: [![Taipy](https://img.shields.io/badge/Taipy-gui-blue?logo=taipy&logoColor=white)](https://taipy.io/) usando server local.
+- Procesamiento de imagenes: [![OpenCV](https://img.shields.io/badge/OpenCV-python-blue?logo=opencv&logoColor=white)](https://opencv.org/).
+- Banco de datos SQLite.  [![OpenCV](https://img.shields.io/badge/SQLite-db-blue?logo=opencv&logoColor=white)](https://sqlite.org/). 
 
 **Hardware:**  
 
