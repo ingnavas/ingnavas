@@ -1,6 +1,6 @@
  Jaime Eduardo Navarrete – Curriculum Vitae
 
-## Últimos proyectos o proyectos mas importantes
+## Últimos proyectos o proyectos importantes
 
 <!-- PRIMER PROYECTO -->
 
@@ -1005,3 +1005,13 @@ end;
 </details>
 
 --
+
+## OTROS PROYECTOS
+- 2019 e-Trasmisor realizando medidas de presión de un transmisor diferencial marca Yokogawa - Lenguaje: labview
+- 2017 Interfaces para ultrafreezer -90º marca Coldlab - Lenguaje de DOPSoft Delta
+- 2015 Medidor de turbidez para registro de datos de un turbidímetro marca Mettler Toledo - Lenguaje: labview
+- 2014 a 2021 - Interfaces para biorreactores marca Biofoco - Lenguaje de DOPSoft Delta
+- 2013 e-Biostation (coautor) para monitoramento y control de Biorreactores - Lenguaje: pascal/delphi
+- 2003 - 2019 Diversos Scripts e interfaces GUI para estudio y enseñanza de control de procesos - Lenguaje: matlab
+- 2003 Sistema de monitoreo y control de digestores anaeróbios - Lenguaje: pascal/delphi
+- 1999 Interface de control de reactor catalítico en un grupo de investigación de la UdeA - Lenguaje: labview
