@@ -879,7 +879,8 @@ Esta es una aplicación basada en procesamiento de imagen, desarrollada para o l
 <details>
   <summary><b>📜 Aplicación </b>></summary>
 
-![RGBView](https://drive.google.com/uc?export=view&id=1gOmprDDvN5PKs5ydAp5ZWZYX6YLsWseq)
+![RGBView](https://drive.google.com/uc?export=view&id=16_ZAgzym4sGcVUp-OS1VVTw36bZNrL1a)
+
 
 </details>
 
