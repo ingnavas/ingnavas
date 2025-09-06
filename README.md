@@ -202,7 +202,7 @@ def on_init(state):
 
 
 <details>
-  <summary><b>📜 Aplicación </b>></summary>
+  <summary><b>👁️ Ver aplicación / 🙈 Ocultar aplicación</b></summary>
 
 ![Monitoreo remoto](https://drive.google.com/uc?export=view&id=1L07g0xDrygkLB1vOwiCdOPpOJMcvkvYx)
 
