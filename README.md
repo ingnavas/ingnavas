@@ -1,6 +1,6 @@
 
 ## Hello
-## 👋 I’m Jaime Eduardo Navarrete   [![español](https://img.shields.io/badge/lang-es-yellow)](#hola) [![proyectos](https://img.shields.io/badge/proy-all-blue)](#Últimos-proyectos-o-proyectos-importantes)
+## 👋 I’m Jaime Eduardo Navarrete   [![español](https://img.shields.io/badge/lang-es-yellow)](#hola) [![proyectos](https://img.shields.io/badge/projects-all-blue)](#Últimos-proyectos-o-proyectos-importantes)
 
 ### 🔧 About Me 
 
@@ -59,7 +59,7 @@ By combining my Data Acquisition Expertise with my Academic Background in contro
 
 ## Hola
 
-## 👋 Soy Jaime Eduardo Navarrete  [![english](https://img.shields.io/badge/lang-en-yellow)](#hello) 
+## 👋 Soy Jaime Eduardo Navarrete  [![english](https://img.shields.io/badge/lang-en-yellow)](#hello) [![proyectos](https://img.shields.io/badge/proyectos-todos-blue)](#Últimos-proyectos-o-proyectos-importantes)
 
 ### 🔧 Sobre mí 
 
@@ -118,7 +118,7 @@ Aporto el rigor de la investigación y la practicidad de la ingeniería para cre
 <hr style="height:5px; background-color:blue; border:none; width:50%;" />
 
 
-## Últimos proyectos o proyectos importantes
+## Últimos proyectos o proyectos importantes [![english](https://img.shields.io/badge/lang-en-yellow)](#hello) [![español](https://img.shields.io/badge/lang-es-yellow)](#hola)
 
 <!-- PRIMER PROYECTO -->
 
