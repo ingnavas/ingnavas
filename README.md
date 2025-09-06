@@ -11,7 +11,7 @@ Over the years, I have worked extensively with:
 
 * Programming tools: Python (since 2021), Object Pascal – Delphi (since 2001), LabVIEW (since 1998), Matlab (since 1997)
 
-* HMI development for industrial and laboratory applications in Lua (since 2013)
+* HMI development for industrial and laboratory applications in DOPSoft (Delta Electronics) (since 2013)
 
 * Integration of hardware and software for reliable measurement systems (since 1999)
 
