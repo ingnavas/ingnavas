@@ -4,6 +4,7 @@
 ### About Me 🔧
 
 I design solutions for data acquisition from physical systems through hardware and software integration.
+
 Rather than labeling myself strictly as a "programmer," I see myself as a problem solver for data acquisition — someone who learns and applies the necessary knowledge to tackle real-world challenges.
 
 Over the years, I have worked extensively with:
@@ -60,6 +61,7 @@ By combining my Data Acquisition Expertise with my Academic Background in contro
 ### Sobre mí 🔧
 
 Diseño soluciones para la adquisición de datos de sistemas físicos mediante la integración de hardware y software.
+
 Más que definirme estrictamente como “programador”, me considero un solucionador de problemas de adquisición de datos — alguien que aprende y aplica el conocimiento necesario para enfrentar desafíos reales.
 
 A lo largo de los años, he trabajado extensamente con:
