@@ -1,6 +1,6 @@
  Jaime Eduardo Navarrete – Curriculum Vitae
 
-## Proyectos
+## Últimos proyectos o proyectos mas importantes
 
 <!-- PRIMER PROYECTO -->
 
@@ -848,3 +848,39 @@ ENDIF
 ![Monitoreo remoto](https://drive.google.com/uc?export=view&id=1JHPFmBLdXw5FTEFd9--9dlMDq6F1rHc4)
 
 </details>
+
+--
+
+<!-- SEPTIMO PROYECTO -->
+
+## 2022
+### RGB VIEW
+
+Esta es una aplicación basada en procesamiento de imagen, desarrollada para o laboratório NQTR de la Universidad Federal de Rio de Janeiro para investigación de cineticas de precipitación de partículas. 
+
+**Caracteristicas:**  
+- Lenguaje [![Lenguaje labview](https://img.shields.io/badge/NI-Labview-blue?logo=labview&logoColor=white)](https://www.ni.com/es/shop/labview.html)
+
+**Hardware:**  
+
+- Camara acoplada al computador
+- Sistema de actuación basado en arduino.``
+
+
+<details>
+  <summary><b>📜 Ver ejemplo del código en labview </b>></summary>
+ 
+ ![Snipped labview](https://drive.google.com/uc?export=view&id=1dXMsCr-8BvqAHmRtc1imyW0koUU-7Nnf)
+
+
+</details> 
+
+
+<details>
+  <summary><b>📜 Aplicación </b>></summary>
+
+![RGBView](https://drive.google.com/uc?export=view&id=1gOmprDDvN5PKs5ydAp5ZWZYX6YLsWseq)
+
+</details>
+
+--
