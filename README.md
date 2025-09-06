@@ -1,6 +1,6 @@
 
 ## Hello
-## 👋 I’m Jaime Eduardo Navarrete   [![español](https://img.shields.io/badge/lang-es-yellow)](#hola) [![proyectos](https://img.shields.io/badge/projects-all-blue)](#Últimos-proyectos-o-proyectos-importantes)
+## 👋 I’m Jaime Eduardo Navarrete   [![español](https://img.shields.io/badge/lang-es-yellow)](#hola) [![proyectos](https://img.shields.io/badge/projects-all-blue)](#últimos-proyectos-o-proyectos-importantes--)
 
 ### 🔧 About Me 
 
