@@ -911,7 +911,7 @@ Esta aplicación  grava microcontroladores STMicroelectronics y através de un h
 Esta aplicación  gerencia en una interface hombre-maquina el monitoreo y control de un reactor químico de laboratório
 
 **Caracteristicas:**  
-- Lenguaje: [![ambiente DOPSoft](https://img.shields.io/badge/NI-Delta-DOPSoft?logo=labview&logoColor=white)](https://downloadcenter.deltaww.com/en-US/DownloadCenter?v=1&dataType=8&q=DOPSoft&sort_expr=cdate&sort_dir=DESC)
+- Lenguaje: [![ambiente DOPSoft](https://img.shields.io/badge/Delta-DOPSoft?logo=delta&logoColor=white)](https://downloadcenter.deltaww.com/en-US/DownloadCenter?v=1&dataType=8&q=DOPSoft&sort_expr=cdate&sort_dir=DESC)
 - Comunicación: Modbus RTU
 
 **Hardware:**  
