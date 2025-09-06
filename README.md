@@ -445,22 +445,22 @@ pid = PIDController(kc, ti, td, tempo_amostra_cascata,reset_aw, output_limits=(s
 <!-- CUARTO PROYECTO -->
 ## 2022/2023
 
-### API Angejiga + API ESP32-Modbus + STlink class 
+### API Angejiga + API ESP32/Modbus + STlink Class 
 
 Dos APIs y una clase dedicada componen este proyecto para la programación de productos baseados en microcontroladores (ST, PIC, Espressif, etc) y el control de calidad de placas electrónicas en el proceso de ensamblado de estas.
 
 La API Angejiga permite la lectura/escrita de entradas analógicas y digitales, usando un hardware personalizado basado en Arduino Mega, denominado por el cliente como Angejiga. Asi, el programador responsable puede concentrarse en la lógica del ensayo sin la preocupación de mapear accionamientos del hardware o eventuales cambios que puedan ser realizados en este. 
 
-La API ESP32-Modbus permite la programación de firmware para diferentes tipos de microcontroladores, usando una hardware personalizado,  denominado por el cliente como placa de gravadores, que proporciona aislamiento en los sistemas de gravación. Usa comunicación wi-fi para el control de lógica de grabación.
+La API ESP32-Modbus a través de comunicação Wi-Fi permite el control de lógica de grabación en la programación de firmware para diferentes tipos de microcontroladores, usando una hardware personalizado que proporciona aislamieto, denominado por el cliente como placa de gravadores.
 
-La clase STlink permite un control de gravación de los microcontroladores STMicroelectronics y usa la herramienta CLI (Command Line Interface).
+La clase STlink comanda la gravación de los microcontroladores STMicroelectronics usando la herramienta CLI (Command Line Interface).
 
 **Caracteristicas:**  
-- Lenguaje 1: [![Python](https://img.shields.io/badge/Python-API-blue?logo=python&logoColor=white)](https://www.python.org/).
-- Lenguaje 2: [![Arduino](https://img.shields.io/badge/Arduinon-API-blue?logo=arduino&logoColor=white)](https://www.arduino.cc/).
-- Frontend: [![Taipy](https://img.shields.io/badge/Taipy-gui-blue?logo=taipy&logoColor=white)](https://taipy.io/) usando server local.
-- Otros:  [![Taipy](https://img.shields.io/badge/STMicroelectronics-CLI-blue?logo=stmicroelectronics&logoColor=white)](https://www.st.com/resource/en/user_manual/um3088-stm32cube-commandline-toolset-quick-start-guide-stmicroelectronics.pdf/) 
 
+- Lenguaje para API para placa Angejiga: [![Python](https://img.shields.io/badge/Python-API-blue?logo=python&logoColor=white)](https://www.python.org/).
+- Lenguaje para API para placa Grabadores: [![Arduino](https://img.shields.io/badge/Arduinon-API-blue?logo=arduino&logoColor=white)](https://www.arduino.cc/).
+- Frontend: [![Taipy](https://img.shields.io/badge/Taipy-gui-blue?logo=taipy&logoColor=white)](https://taipy.io/) usando server local.
+- Otros:  [![Taipy](https://img.shields.io/badge/STMicroelectronics-CLI-blue?logo=stmicroelectronics&logoColor=white)](https://www.st.com/resource/en/user_manual/um3088-stm32cube-commandline-toolset-quick-start-guide-stmicroelectronics.pdf) 
 
 
 **Hardware:**  
@@ -865,12 +865,12 @@ void loop() {
 
 </details>
 
---
+---
 
 <!-- QUINTO PROYECTO -->
 
 ## 2022
-### Grabación y control de calidad de placas electrónicas
+### Grabación y Control de Calidad de Placas Electrónicas
 
 Esta aplicación  grava microcontroladores STMicroelectronics y através de un hardware personalizado realiza un ensayo que identifica defectos en la producción de placas electrónicas. 
 
