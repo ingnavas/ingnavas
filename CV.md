@@ -853,7 +853,7 @@ ENDIF
 
 <!-- SEPTIMO PROYECTO -->
 
-## 2022
+## 2016
 ### RGB VIEW
 
 Esta es una aplicación basada en procesamiento de imagen, desarrollada para o laboratório NQTR de la Universidad Federal de Rio de Janeiro para investigación de cineticas de precipitación de partículas. 
@@ -864,7 +864,7 @@ Esta es una aplicación basada en procesamiento de imagen, desarrollada para o l
 **Hardware:**  
 
 - Camara acoplada al computador
-- Sistema de actuación basado en arduino.``
+- Sistema de actuación basado en arduino.
 
 
 <details>
@@ -881,6 +881,123 @@ Esta es una aplicación basada en procesamiento de imagen, desarrollada para o l
 
 ![RGBView](https://drive.google.com/uc?export=view&id=16_ZAgzym4sGcVUp-OS1VVTw36bZNrL1a)
 
+
+</details>
+
+--
+
+## 2013
+### CAMPO ELÉCTRICO CRÍTICO
+
+Esta es una aplicación para lectura de variables electricas e la determinacion de campos electricos en celulas de ensayo de emulsioes óleo agua
+
+**Caracteristicas:**  
+- Lenguaje [![Lenguaje pascal / delphi] (https://img.shields.io/badge/Pascal-Delphi-blue?logo=delphi&logoColor=white)](https://www.embarcadero.com/br/products/delphi)
+- Protocolo de comunicación SCPI (Standard Commands for Programmable Instruments)
+
+**Hardware:**  
+
+- Fuente de mediciones dinamicas Agilent
+- Picoamperimetro Keithley Model 487 
+
+
+<details>
+  <summary><b>📜 Ver ejemplo del código en labview </b>></summary>
+ 
+ ```Pascal
+
+procedure TfrmAgilent.btnIniciarClick(Sender: TObject);
+var
+frameEstatus:string;
+tensao:string;
+begin
+  if portaAgilent.Connected=false then
+    begin
+      portaAgilent.Connected:=true;
+      portaAgilent.ClearBuffer(true,true);
+      timerProgresso.Enabled:=true;
+    end
+  ;
+  btnIniciar.Enabled:=false;
+  btnParar.Enabled:=true;
+  btnExportar.Enabled:=false;
+  btnRampaPatamar.Enabled:=false;
+  Tabsheet3.Enabled:=false;
+
+  portaAgilent.WriteStr('*RST'+#10);
+  sleep(200);
+  portaAgilent.WriteStr('*CLS'+#10);
+  sleep(200);
+
+
+  frameEstatus:= 'OUTPUT:STATE ON;STATE?'+#10;
+  portaAgilent.WriteStr(frameEstatus);
+  sleep(200);
+  tempoInicial:=time;
+  tensao:='SOUR:VOLT '+floattostr(vetorTensao[0])+#10;
+  portaAgilent.WriteStr(tensao);
+  Timer.Enabled:=true;
+  iTempo:=0;
+  Series1.AddXY(vetorTempo[0],vetorTensao[0]);
+  iLed:=0;
+
+end;
+
+procedure TfrmAgilent.btnPararClick(Sender: TObject);
+var
+frameEstatus:string;
+begin
+ if portaAgilent.Connected=true then
+  begin
+    frameEstatus:= 'OUTPUT:STATE OFF'+#10;
+    portaAgilent.WriteStr(frameEstatus);
+    portaAgilent.Connected:=false;
+    led1.Active:=false;
+    led2.Active:=false;
+    led3.Active:=false;
+    Timer.Enabled:=false;
+    iTempo:=0;
+    btnParar.Enabled:=false;
+    btnRampaPatamar.Enabled:=true;
+    Tabsheet3.Enabled:=true;
+    timerProgresso.Enabled:=false;
+    iLed:=0;
+    btnExportar.Enabled:=true;
+  end
+ ;
+
+end;
+
+procedure TfrmAgilent.datapackAgilentPacket(Sender: TObject;
+  const Str: String);
+  var
+  tempoTrascorrido:integer;
+  straux:string;
+begin
+    if (str<>'1') and (str<>'0') then
+      begin
+        straux:=copy(Str,2,length(Str)-1);
+        dsAmperagem.Value:=strtofloat(straux)*1000;
+        tempoAtual:=time;
+        tempoTrascorrido:=round((TimeStampToMSecs(DateTimeToTimeStamp(tempoAtual))-
+                    TimeStampToMSecs(DateTimeToTimeStamp(tempoInicial)))/1000);
+
+        Series2.AddXY(tempoTrascorrido,dsAmperagem.Value);
+        Series2.RefreshSeries;
+      end
+    ;
+end;
+
+```
+
+
+</details> 
+
+
+<details>
+  <summary><b>📜 Aplicación </b>></summary>
+
+![CEC](https://drive.google.com/uc?export=view&id=14mUEc7MtIwKq_nxcBaninE5e5dXX1Wm9)
 
 </details>
 
