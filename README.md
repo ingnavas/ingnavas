@@ -447,28 +447,31 @@ pid = PIDController(kc, ti, td, tempo_amostra_cascata,reset_aw, output_limits=(s
 
 ### API Angejiga + API ESP32-Modbus + STlink class 
 
-Dos APIs y una clase dedicada componen este proyecto para la programación de productos baseados en microcontroladores ST y el control de calidad de placas electrónicas en el proceso de ensamblado de estas.
+Dos APIs y una clase dedicada componen este proyecto para la programación de productos baseados en microcontroladores (ST, PIC, Espressif, etc) y el control de calidad de placas electrónicas en el proceso de ensamblado de estas.
 
-La API Angejiga es solución personalizada para lectura/escrita de entradas analógicas y digitales, usando un hardware personalizado basado en Arduino Mega, denominado por el cliente como Angejiga. Asi, el programador responsable puede concentrarse en la lógica del ensayo de alto nível sin la preocupación de los mapeamentos de lecturas y accionamientos del hardware. 
+La API Angejiga permite la lectura/escrita de entradas analógicas y digitales, usando un hardware personalizado basado en Arduino Mega, denominado por el cliente como Angejiga. Asi, el programador responsable puede concentrarse en la lógica del ensayo sin la preocupación de mapear accionamientos del hardware o eventuales cambios que puedan ser realizados en este. 
 
-La API ESP32-Modbus es solución personalizada, usada en la programación de firmware para diferentes tipos de microcontroladores, para proporcionar aislamiento en los sistemas de gravación. Esta permite una comunicación modbus via wi-fi para control de lógica de grabación
+La API ESP32-Modbus permite la programación de firmware para diferentes tipos de microcontroladores, usando una hardware personalizado,  denominado por el cliente como placa de gravadores, que proporciona aislamiento en los sistemas de gravación. Usa comunicación wi-fi para el control de lógica de grabación.
 
-La clase STlink permite un control de gravación de los microcontroladores STMicroelectronics a través del uso de lineas de comando ( Command Line Interface)
-
+La clase STlink permite un control de gravación de los microcontroladores STMicroelectronics y usa la herramienta CLI (Command Line Interface).
 
 **Caracteristicas:**  
-- API Angejiga en lenguaje python con biblioteca firmata del lado del arduino mega
-- API ESP32-Modbus programada en IDE del Arduino
-- Frontend del producto de cliente en [![Taipy](https://img.shields.io/badge/Taipy-gui-blue?logo=python&logoColor=white)](https://taipy.io/) usando server local.
+- Lenguaje 1: [![Python](https://img.shields.io/badge/Python-API-blue?logo=python&logoColor=white)](https://www.python.org/).
+- Lenguaje 2: [![Arduino](https://img.shields.io/badge/Arduinon-API-blue?logo=arduino&logoColor=white)](https://www.arduino.cc/).
+- Frontend: [![Taipy](https://img.shields.io/badge/Taipy-gui-blue?logo=taipy&logoColor=white)](https://taipy.io/) usando server local.
+- Otros:  [![Taipy](https://img.shields.io/badge/STMicroelectronics-CLI-blue?logo=stmicroelectronics&logoColor=white)](https://www.st.com/resource/en/user_manual/um3088-stm32cube-commandline-toolset-quick-start-guide-stmicroelectronics.pdf/) 
+
 
 
 **Hardware:**  
 
-- Angejiga  desarrollado por el cliente
-- Placa gravadores desarrollada por el cliente
+- Placa Angejiga: desarrollada por el cliente
+- Placa gravadores: desarrollada por el cliente
 
+#### Previa:
 <details>
-  <summary><b>📜 Ver ejemplo del código de la API Angejiga en Python </b>></summary>
+ 
+  <summary><b>🔽Ver código (API para placa Angejiga) / 🔼 Ocultar código</b></summary>
  
 ```python
 #@BRIEF: CLASSE ATRELADA AO HARDWARE DA JIGA - VER MAPEAMENTO DA JIGA
@@ -724,12 +727,13 @@ class JigaAngejiga:
             self.AC_DIN0 = None
 
 ```
-
+[![volver](https://img.shields.io/badge/⏪-volver-blue?labelColor=white&color=blue)](#previa-3)
 </details> 
 
+### -
 
 <details>
-  <summary><b>📜 Ver ejemplo del código de la API ESP32-Modbus en lenguaje de la IDE de Arduino </b>></summary>
+  <summary><b>🔽Ver código (API para placa gravadores)/ 🔼 Ocultar código</b></summary>
  
 ```C
 
@@ -850,11 +854,12 @@ void loop() {
 ...
 
 ```
-
+[![volver](https://img.shields.io/badge/⏪-volver-blue?labelColor=white&color=blue)](#-)
 </details> 
 
+
 <details>
-  <summary><b>📜 Aplicación </b>></summary>
+    <summary><b>👁️ Ver aplicación / 🙈 Ocultar aplicación</b></summary>
 
 ![Paneles](https://drive.google.com/uc?export=view&id=1RXv_XtWBBSXE_-u39rQp9afaiXxkXpOF)
 
