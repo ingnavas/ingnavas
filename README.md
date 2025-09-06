@@ -1,7 +1,7 @@
 
-### Hello
-## 👋 I’m Jaime Eduardo Navarrete   [![español](https://img.shields.io/badge/lang-es-yellow)](#hola) 
-### About Me 🔧
+### Hello 👋
+## I’m Jaime Eduardo Navarrete   [![español](https://img.shields.io/badge/lang-es-yellow)](#hola) 
+### 🔧 About Me 
 
 I design solutions for data acquisition from physical systems through hardware and software integration.
 
@@ -15,7 +15,7 @@ Over the years, I have worked extensively with:
 
 * Integration of hardware and software for reliable measurement systems (since 1999)
 
-### Data Acquisition Expertise 📊
+### 📊 Data Acquisition Expertise 
 
 I have hands-on experience designing and implementing data acquisition systems for a wide range of physical variables, including all common measurements in industrial environments such as Pressure, Temperature, pH, RPM, Dissolved Oxygen, and Turbidity.
 
@@ -23,7 +23,7 @@ Additionally, I have some hands-on experience in image analysis for laboratory a
 
 This expertise allows me to bridge the gap between sensors, hardware, and intelligent software, ensuring accurate and reliable information flow from the physical world to decision-making systems.
 
-### Academic Background 🎓
+### 🎓 Academic Background 
 
 I am Chemical Engineering, but I hold a PhD in Electrical Engineering in the area of Control Systems, including:
 
@@ -37,7 +37,7 @@ And for two separate periods (2011 to 2012 and 2016 to 2018), I was a professor 
 
 This strong academic background complements my engineering experience, enabling me to design robust and scalable solutions that meet industrial demands.
 
-### From Lab to Industry ⚙️
+### ⚙️From Lab to Industry 
 
 By combining my Data Acquisition Expertise with my Academic Background in control and system identification, I deliver solutions that:
 
@@ -49,18 +49,18 @@ By combining my Data Acquisition Expertise with my Academic Background in contro
 
 * Transform raw sensor data into actionable insights for decision-making.
 
-## In short 🧩
+## 🧩 In short 
 **I bring the rigor of research and the practicality of engineering to create innovative solutions for industrial challenges — measuring the real world to enable better decisions about it.**
 
 
 <hr style="height:3px; background-color:#000; border:none;" />
 
 
-### Hola
+### Hola 👋
 
-## 👋 Soy Jaime Eduardo Navarrete  [![english](https://img.shields.io/badge/lang-en-yellow)](#hello) 
+## Soy Jaime Eduardo Navarrete  [![english](https://img.shields.io/badge/lang-en-yellow)](#hello) 
 
-### Sobre mí 🔧
+### 🔧 Sobre mí 
 
 Diseño soluciones para la adquisición de datos de sistemas físicos mediante la integración de hardware y software.
 
@@ -76,7 +76,7 @@ A lo largo de los años, he trabajado extensamente con:
 
 * Integración de hardware y software para sistemas de medición confiables (desde 1999)
 
-### Experiencia en Adquisición de Datos 📊
+### 📊 Experiencia en Adquisición de Datos 
 
 Tengo experiencia práctica en el diseño e implementación de sistemas de adquisición de datos para una amplia gama de variables físicas, incluyendo todas las más comunes en entornos industriales como Presión, Temperatura, pH, RPM, Oxígeno Disuelto y Turbidez.
 
@@ -84,7 +84,7 @@ Además, cuento con algo de experiencia en análisis de imágenes aplicado a ent
 
 Esto me permite cerrar la brecha entre sensores, hardware y software inteligente, garantizando un flujo de información preciso y confiable desde el mundo físico hasta los sistemas de toma de decisiones.
 
-### Formación Académica 🎓
+### 🎓Formación Académica 
 
 Soy Ingeniero Químico mas concluí mi doctorado en Ingeniería Eléctrica (2010), en el área del conocimiento que abarca:
 
@@ -98,7 +98,7 @@ Y por un dos periódos separados (2011 a 2012 y 2016 a 2018) fui profesor en uni
 
 Esta sólida formación académica complementa mi experiencia en ingeniería, lo que me permite diseñar soluciones robustas y escalables que responden a las demandas industriales.
 
-### Del Laboratorio a la Industria ⚙️
+### ⚙️Del Laboratorio a la Industria 
 
 Al combinar mi experiencia en adquisición de datos con mi formación académica en control e identificación de sistemas, entrego soluciones que:
 
@@ -110,7 +110,7 @@ Al combinar mi experiencia en adquisición de datos con mi formación académica
 
 * Transforman los datos de sensores en información para la toma de decisiones.
 
-### En resumen 🧩
+### 🧩 En resumen 
 
 Aporto el rigor de la investigación y la practicidad de la ingeniería para crear soluciones innovadoras a los desafíos industriales — midiendo el mundo real para poder tomar mejores decisiones sobre él.
 
