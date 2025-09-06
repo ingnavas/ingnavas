@@ -11,7 +11,7 @@ Over the years, I have worked extensively with:
 
 * Programming tools: Python (since 2021), Object Pascal – Delphi (since 2001), LabVIEW (since 1998), Matlab (since 1997)
 
-* HMI development for industrial and laboratory applications in DOPSoft (Delta Electronics) (since 2013)
+* HMI development for industrial and laboratory applications in DOPSoft IDE (Delta Electronics) (since 2013)
 
 * Integration of hardware and software for reliable measurement systems (since 1999)
 
@@ -25,13 +25,15 @@ This expertise allows me to bridge the gap between sensors, hardware, and intell
 
 ### Academic Background 🎓
 
-I hold a PhD in Electrical Engineering in the area of Control Systems, including:
+I am Chemical Engineering, but I hold a PhD in Electrical Engineering in the area of Control Systems, including:
 
-* Classical Control (PID, cascade, etc.)
+* Classical Control (PID, cascade, etc.).
 
-* Advanced Control (Predictive and Adaptive Control)
+* Advanced Control (Predictive and Adaptive Control).
 
-* System Identification for dynamic modeling of physical and chemical processes
+* System Identification for dynamic modeling of physical and chemical processes.
+
+And for two separate periods (2011 to 2012 and 2016 to 2018), I was a professor at São Paulo State University (UNESP), Brazil, teaching courses in industrial process control
 
 This strong academic background complements my engineering experience, enabling me to design robust and scalable solutions that meet industrial demands.
 
@@ -39,13 +41,13 @@ This strong academic background complements my engineering experience, enabling 
 
 By combining my Data Acquisition Expertise with my Academic Background in control and system identification, I deliver solutions that:
 
-* Enhance process monitoring and automation
+* Enhance process monitoring and automation.
 
-* Enable predictive and adaptive control strategies
+* Enable predictive and adaptive control strategies.
 
-* Provide scalable architectures for industrial and laboratory environments
+* Provide scalable architectures for industrial and laboratory environments.
 
-* Transform raw sensor data into actionable insights for decision-making
+* Transform raw sensor data into actionable insights for decision-making.
 
 ## In short
 **I bring the rigor of research and the practicality of engineering to create innovative solutions for industrial challenges — measuring the real world to enable better decisions about it.**
@@ -68,7 +70,7 @@ A lo largo de los años, he trabajado extensamente con:
 
 * Lenguajes y herramientas de programación: Python (desde 2021), Object Pascal – Delphi (desde 2001), LabVIEW (desde 1998), Matlab (desde 1997)
 
-* Desarrollo de interfaces HMI para aplicaciones industriales y de laboratorio en Lua (desde 2013)
+* Desarrollo de interfaces HMI para aplicaciones industriales y de laboratorio en DOPSoft IDE (Delta Electronics) (desde 2013)
 
 * Arduino (desde 2010) y ESP32 (desde 2018)
 
@@ -84,13 +86,15 @@ Esto me permite cerrar la brecha entre sensores, hardware y software inteligente
 
 ### Formación Académica 🎓
 
-Soy Doctor en Ingeniería Eléctrica (2010), en el área del conocimiento que abarca:
+Soy Ingeniero Químico mas concluí mi doctorado en Ingeniería Eléctrica (2010), en el área del conocimiento que abarca:
 
-* Control Clásico (PID, en cascada, etc.)
+* Control Clásico (PID, en cascada, etc.).
 
-* Control Avanzado (Predictivo y Adaptativo)
+* Control Avanzado (Predictivo y Adaptativo).
 
-* Identificación de Sistemas para el modelado dinámico de procesos físicos y químicos
+* Identificación de Sistemas para el modelado dinámico de procesos físicos y químicos.
+
+Y por un dos periódos separados (2011 a 2012 y 2016 a 2018) fui profesor en universidad del estado de São Paulo (UNESP), Brasil en las disciplinas de control de procesos industriales.
 
 Esta sólida formación académica complementa mi experiencia en ingeniería, lo que me permite diseñar soluciones robustas y escalables que responden a las demandas industriales.
 
@@ -98,13 +102,13 @@ Esta sólida formación académica complementa mi experiencia en ingeniería, lo
 
 Al combinar mi experiencia en adquisición de datos con mi formación académica en control e identificación de sistemas, entrego soluciones que:
 
-* Mejoran el monitoreo y la automatización de procesos
+* Mejoran el monitoreo y la automatización de procesos.
 
-* Permiten estrategias de control predictivo y adaptativo
+* Permiten estrategias de control predictivo y adaptativo.
 
-* Ofrecen arquitecturas escalables para entornos industriales y de laboratorio
+* Ofrecen arquitecturas escalables para entornos industriales y de laboratorio.
 
-* Transforman los datos de sensores en información para la toma de decisiones
+* Transforman los datos de sensores en información para la toma de decisiones.
 
 ### En resumen
 
