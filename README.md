@@ -879,20 +879,23 @@ Esta aplicación  grava microcontroladores STMicroelectronics y através de un h
 
 **Hardware:**  
 
-- Personalizado  desarrollado por el cliente
+- Arduino UNO y placa desarrollada por el cliente
+- Gravador STLink
 
-
+#### Previa:
 <details>
-  <summary><b>📜 Ver ejemplo del código en labview </b>></summary>
+ 
+  <summary><b>🔽Ver código / 🔼 Ocultar código</b></summary>
  
  ![Snipped labview](https://drive.google.com/uc?export=view&id=1eq2ARQ8EnMts_C7aP2tix-5ZTqGg9tOM)
 
+[![volver](https://img.shields.io/badge/⏪-volver-blue?labelColor=white&color=blue)](#previa-4)
 
 </details> 
 
 
 <details>
-  <summary><b>📜 Aplicación </b>></summary>
+  <summary><b>👁️ Ver aplicación / 🙈 Ocultar aplicación</b></summary>
 
 ![Monitoreo remoto](https://drive.google.com/uc?export=view&id=1gOmprDDvN5PKs5ydAp5ZWZYX6YLsWseq)
 
@@ -903,22 +906,23 @@ Esta aplicación  grava microcontroladores STMicroelectronics y através de un h
 <!-- SEXTO PROYECTO -->
 
 ## 2021
-### Interface HMI para reator químico
+### Interface HMI para Reator Químico
 
-Esta aplicación  es una interface para visualización de un reactor químico de laboratório
+Esta aplicación  gerencia en una interface hombre-maquina el monitoreo y control de un reactor químico de laboratório
 
 **Caracteristicas:**  
-- Construcción en ambiente DOPSoft 
-- Comunicación modbus RTU sobre red 485
+- Lenguaje: [![ambiente DOPSoft](https://img.shields.io/badge/NI-Delta-DOPSoft?logo=labview&logoColor=white)](https://downloadcenter.deltaww.com/en-US/DownloadCenter?v=1&dataType=8&q=DOPSoft&sort_expr=cdate&sort_dir=DESC)
+- Comunicación: Modbus RTU
 
 **Hardware:**  
 
-- Controladores Delta
-- Servomotor con drive Delta
+- [![Controladores Delta](https://img.shields.io/badge/Delta-Controlador%20DTC-green?)](https://www.deltaww.com/en-us/products/Temperature-Controllers/DTC).
+- [![Servomotor Delta](https://img.shields.io/badge/Delta-Servomotor-green?)](https://www.deltaww.com/en-US/products/Servo-Systems-AC-Servo-Motors-and-Drives/225).
 
-
+#### Previa:
 <details>
-  <summary><b>📜 Ver ejemplo del código sintaxe DELTA DOPSoft </b>></summary>
+ 
+  <summary><b>🔽Ver código / 🔼 Ocultar código</b></summary>
 
 ```python
 
@@ -969,13 +973,16 @@ ENDIF
 
  ```
 
+[![volver](https://img.shields.io/badge/⏪-volver-blue?labelColor=white&color=blue)](#previa-5)
+
 </details> 
 
 
 <details>
-  <summary><b>📜 Aplicación </b>></summary>
+  <summary><b>👁️ Ver aplicación / 🙈 Ocultar aplicación</b></summary>
 
-![Monitoreo remoto](https://drive.google.com/uc?export=view&id=1JHPFmBLdXw5FTEFd9--9dlMDq6F1rHc4)
+
+![HMI](https://drive.google.com/uc?export=view&id=1JHPFmBLdXw5FTEFd9--9dlMDq6F1rHc4)
 
 </details>
 
@@ -997,17 +1004,21 @@ Esta es una aplicación basada en procesamiento de imagen, desarrollada para o l
 - Sistema de actuación basado en arduino.
 
 
+#### Previa:
 <details>
-  <summary><b>📜 Ver ejemplo del código en labview </b>></summary>
+ 
+  <summary><b>🔽Ver código / 🔼 Ocultar código</b></summary>
  
  ![Snipped labview](https://drive.google.com/uc?export=view&id=1dXMsCr-8BvqAHmRtc1imyW0koUU-7Nnf)
 
+
+[![volver](https://img.shields.io/badge/⏪-volver-blue?labelColor=white&color=blue)](#previa-6)
 
 </details> 
 
 
 <details>
-  <summary><b>📜 Aplicación </b>></summary>
+  <summary><b>👁️ Ver aplicación / 🙈 Ocultar aplicación</b></summary>
 
 ![RGBView](https://drive.google.com/uc?export=view&id=16_ZAgzym4sGcVUp-OS1VVTw36bZNrL1a)
 
@@ -1022,9 +1033,9 @@ Esta es una aplicación basada en procesamiento de imagen, desarrollada para o l
 Esta es una aplicación para lectura de variables electricas e la determinacion de campos electricos en celulas de ensayo de emulsioes óleo agua
 
 **Caracteristicas:**  
-- [![Lenguaje Pascal / Delphi](https://img.shields.io/badge/Pascal-Delphi-blue?logo=delphi&logoColor=white)](https://www.embarcadero.com/br/products/delphi)
+- Lenguaje: [![Lenguaje Pascal / Delphi](https://img.shields.io/badge/Pascal-Delphi-blue?logo=delphi&logoColor=white)](https://www.embarcadero.com/br/products/delphi)
+- Protocolo: [![SCPI/ Delphi](https://img.shields.io/badge/Protocolo-SCPI-blue)](https://www.ivifoundation.org/About-IVI/scpi.html)
 
-- Protocolo de comunicación SCPI (Standard Commands for Programmable Instruments)
 
 **Hardware:**  
 
@@ -1034,8 +1045,10 @@ Esta es una aplicación para lectura de variables electricas e la determinacion 
 
 
 
+#### Previa:
 <details>
-  <summary><b>📜 Ver ejemplo del código en pascal </b>></summary>
+ 
+  <summary><b>🔽Ver código / 🔼 Ocultar código</b></summary>
  
  ```Pascal
 
@@ -1122,13 +1135,13 @@ begin
 end;
 
 ```
-
+[![volver](https://img.shields.io/badge/⏪-volver-blue?labelColor=white&color=blue)](#previa-7)
 
 </details> 
 
 
 <details>
-  <summary><b>📜 Aplicación </b>></summary>
+  <summary><b>👁️ Ver aplicación / 🙈 Ocultar aplicación</b></summary>
 
 ![CEC](https://drive.google.com/uc?export=view&id=14mUEc7MtIwKq_nxcBaninE5e5dXX1Wm9)
 
