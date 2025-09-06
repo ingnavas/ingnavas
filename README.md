@@ -114,7 +114,7 @@ Al combinar mi experiencia en adquisición de datos con mi formación académica
 
 Aporto el rigor de la investigación y la practicidad de la ingeniería para crear soluciones innovadoras a los desafíos industriales — midiendo el mundo real para poder tomar mejores decisiones sobre él.
 
---
+<hr style="height:5px; background-color:blue; border:none; width:50%;" />
 
 
 ## Últimos proyectos o proyectos importantes
