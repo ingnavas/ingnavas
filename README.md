@@ -198,7 +198,7 @@ def on_init(state):
                                 user_status_function=status_fct, user_status_function_args=[])
 ```
 
-[![volver](https://img.shields.io/badge/⏪-volver-blue)](#trecho-de-código)
+[![volver](https://img.shields.io/badge/⏪-volver-blue?labelColor=white&color=white)](#trecho-de-código)
 </details> 
 
 
