@@ -18,7 +18,7 @@ Over the years, I have worked extensively with:
 
 ### 📊 Data Acquisition Expertise 
 
-I have hands-on experience designing and implementing data acquisition systems for a wide range of physical variables, including all common measurements in industrial environments such as Pressure, Temperature, pH, RPM, Dissolved Oxygen, and Turbidity.
+I have hands-on experience designing and implementing data acquisition systems for a wide range of physical variables, including all common measurements in industrial environments such as Pressure, Temperature, pH, RPM, Dissolved Oxygen, and Turbidity, among others.
 
 Additionally, I have some hands-on experience in image analysis for laboratory applications.
 
@@ -59,7 +59,7 @@ By combining my Data Acquisition Expertise with my Academic Background in contro
 
 ## Hola
 
-## 👋 Soy Jaime Eduardo Navarrete  [![english](https://img.shields.io/badge/lang-en-yellow)](#hello) [![proyectos](https://img.shields.io/badge/proyectos-todos-blue)](#Últimos-proyectos-o-proyectos-importantes)
+## 👋 Soy Jaime Eduardo Navarrete  [![english](https://img.shields.io/badge/lang-en-yellow)](#hello) [![proyectos](https://img.shields.io/badge/proyectos-todos-blue)](#últimos-proyectos-o-proyectos-importantes--)
 
 ### 🔧 Sobre mí 
 
@@ -79,7 +79,7 @@ A lo largo de los años, he trabajado extensamente con:
 
 ### 📊 Experiencia en Adquisición de Datos 
 
-Tengo experiencia práctica en el diseño e implementación de sistemas de adquisición de datos para una amplia gama de variables físicas, incluyendo todas las más comunes en entornos industriales como Presión, Temperatura, pH, RPM, Oxígeno Disuelto y Turbidez.
+Tengo experiencia práctica en el diseño e implementación de sistemas de adquisición de datos para una amplia gama de variables físicas, incluyendo todas las más comunes en entornos industriales como Presión, Temperatura, pH, RPM, Oxígeno Disuelto y Turbidez, entre otras.
 
 Además, cuento con algo de experiencia en análisis de imágenes aplicado a entornos de laboratorio.
 
@@ -125,22 +125,23 @@ Aporto el rigor de la investigación y la practicidad de la ingeniería para cre
 ## 2025  
 ### Sistema de Monitoramento de Variábles Remotas
 
-Esta aplicación  comunica con un gateway GSM/Modbus para colectar datos de un sensor remoto y realiza una visualización de datos. Ejecuta en un server local con lectura on-line.
+Esta aplicación  comunica con un gateway GSM/Modbus para colectar datos de un sensor remoto y realiza una visualización de datos.
 
 **Caracteristicas:**  
-- Lenguaje python.
-- Frontend en [![Taipy](https://img.shields.io/badge/Taipy-gui-blue?logo=python&logoColor=white)](https://taipy.io/) usando server local.
-- Comunicación modbus RTU e MQQT.
+- Lenguaje: [![Python](https://img.shields.io/badge/Python-daq-blue?logo=python&logoColor=white)](https://www.python.org/).
+- Frontend: [![Taipy](https://img.shields.io/badge/Taipy-gui-blue?logo=taipy&logoColor=white)](https://taipy.io/) usando server local.
+- Comunicación:  MQQT/Modbus RTU. 
 
 **Hardware:**  
 
-- [![TRB145](https://img.shields.io/badge/Teltonika-TRB145-green?logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIwIiBoZWlnaHQ9IjIyMCIgdmlld0JveD0iMCAwIDIyMCAyMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBvbHlnb24gcG9pbnRzPSI0MCwxMTAgMTEwLDQwIDE1MCw4MCA4MCwxNTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iMTAiLz4KICA8cG9seWdvbiBwb2ludHM9IjgwLDExMCAxNTAsNDAgMTkwLDgwIDEyMCwxNTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iMTAiLz4KICA8cG9seWdvbiBwb2ludHM9IjEyMCwxMTAgMTkwLDQwIDIyMCw3MCAxNTAsMTUwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjEwIi8+Cjwvc3ZnPg==)](https://teltonika-networks.com/products/gateways/trb145).
+- [![TRB145](https://img.shields.io/badge/Teltonika-TRB145-green)](https://teltonika-networks.com/products/gateways/trb145).
 
-- [![Polilyte](https://img.shields.io/badge/Hamilton-Polilyte%20Plus%20PHI%20Arc%20120-orange?logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgdmlld0JveD0iMCAwIDEyMCAxMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPGNpcmNsZSBjeD0iNjAiIGN5PSI2MCIgcj0iNTgiIGZpbGw9IiMyMTJGNEEiIC8+CiAgPHRleHQgeD0iNTAlIiB5PSI2MiUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiCiAgICAgICAgZm9udC1mYW1pbHk9IkJydXNoIFNjcmlwdCBNVCwgQnJ1c2hTY3JpcHRNVCwgY3Vyc2l2ZSIKICAgICAgICBmb250LXNpemU9IjgwIiBmaWxsPSIjZmZmIj4KICAgIEgKICA8L3RleHQ+Cjwvc3ZnPg==)](https://www.hamiltoncompany.com/product-specs/242428-4313).
+- [![Polilyte](https://img.shields.io/badge/Hamilton-Polilyte%20Plus%20PHI%20Arc%20120-orange)](https://www.hamiltoncompany.com/product-specs/242428-4313).
 
 
 <details>
-  <summary><b>📜 Ver ejemplo del código en Python </b>></summary>
+ 
+  <summary><b>🔽 Ver código / 🔼 Ocultar código</b></summary>
  
 ```python
 class ToAcquisition:
