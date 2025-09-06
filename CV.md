@@ -768,3 +768,83 @@ Esta aplicación  grava microcontroladores STMicroelectronics y através de un h
 
 </details>
 
+--
+
+<!-- SEXTO PROYECTO -->
+
+## 2021
+### Interface HMI para reator químico
+
+Esta aplicación  es una interface para visualización de un reactor químico de laboratório
+
+**Caracteristicas:**  
+- Construcción en ambiente DOPSoft 
+- Comunicación modbus RTU sobre red 485
+
+**Hardware:**  
+
+- Controladores Delta
+- Servomotor con drive Delta
+
+
+<details>
+  <summary><b>📜 Ver ejemplo del código sintaxe DELTA DOPSoft </b>></summary>
+
+```python
+
+# STATUS BUTTON START TEMPERATURE LOOP
+# BUTTON OFF
+IF [TEMP_OPER] !=2 
+	#CHECK VALVE OUTPUT (MANUAL OR AUTO)
+	[TEMP_VALVE_OUT]=[TEMP_VALVE_OUT_LOCAL]
+	# LOCAL VARIAVEL FOR EFFECT COOLING BAR
+	[TEMP_REACTOR_MV_LOCAL] = 0 -([TEMP_REACTOR_MV]) (SIGNED)
+	#VISIBILITY SWITCH VALVE COOLING
+	BITON([TEMP_AUX2])
+	#WHEN ERROR SWITCH TO MANUAL
+	# TEMPERATURE REACTOR HIGH
+	IF [TEMP_RLY_REACTOR]!=0
+		# TEMPERATURE JACKET HIGH
+		IF [TEMP_RLY_JACKET] != 0
+			#PRESSURE HIGH
+			IF [PRESS_RLY_REACTOR] != 0
+				#NO ERROR AUTO
+				[TEMP_OPER] =0
+			ELSE
+				#IF ERROR GO TO MANUAL
+				[TEMP_OPER] =1
+				[TEMP_REACTOR_MV]=0
+			ENDIF
+		ELSE
+			#IF ERROR MANUAL
+			[TEMP_OPER] =1
+			[TEMP_REACTOR_MV]=0
+		ENDIF
+	ELSE
+		#IF ERROR MANUAL
+		[TEMP_OPER] =1
+		[TEMP_REACTOR_MV]=0		
+	ENDIF
+ELSE
+	#CHECK VALVE OUTPUT MANUAL (FOR ENABLE COOLING))
+	TEMP_VALVE_OUT = 0
+	#VISIBILITY SWITCH VALVE COOLING
+	BITOFF([TEMP_AUX2])
+	# LOCAL VARIAVEL FOR EFFECT COOLING BAR = 0
+	[TEMP_REACTOR_MV_LOCAL] = 0
+	# TEMPERATURE SP SECURITY
+	[TEMP_REACTOR_SP] = 30 
+
+ENDIF
+
+ ```
+
+</details> 
+
+
+<details>
+  <summary><b>📜 Aplicación </b>></summary>
+
+![Monitoreo remoto](https://drive.google.com/uc?export=view&id=1JHPFmBLdXw5FTEFd9--9dlMDq6F1rHc4)
+
+</details>
