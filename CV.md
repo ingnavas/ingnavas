@@ -892,13 +892,15 @@ Esta es una aplicación basada en procesamiento de imagen, desarrollada para o l
 Esta es una aplicación para lectura de variables electricas e la determinacion de campos electricos en celulas de ensayo de emulsioes óleo agua
 
 **Caracteristicas:**  
-- Lenguaje [![Lenguaje pascal / delphi] (https://img.shields.io/badge/Pascal-Delphi-blue?logo=delphi&logoColor=white)](https://www.embarcadero.com/br/products/delphi)
+- [![Lenguaje Pascal / Delphi](https://img.shields.io/badge/Pascal-Delphi-blue?logo=delphi&logoColor=white)](https://www.embarcadero.com/br/products/delphi)
+
 - Protocolo de comunicación SCPI (Standard Commands for Programmable Instruments)
 
 **Hardware:**  
 
-- Fuente de mediciones dinamicas Agilent
-- Picoamperimetro Keithley Model 487 
+-  [![Fuente de mediciones dinamicas Agilent](https://img.shields.io/badge/Agilent-6634B-blue](https://www.embarcadero.com/br/products/delphi)  Fuente de mediciones dinamicas Agilent
+-  [![Picoamperimetro Keithley](https://img.shields.io/badge/Keithley-6487-blue](https://www.tek.com/en/datasheet/series-6400-picoammeters/6487-picoammeter-voltage-source) 
+
 
 
 <details>
